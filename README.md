@@ -1,6 +1,7 @@
 ####DMPOWER - A Dungeon Master's helper program for 5th edition Dungeons & Dragons  
 _The program I've always wanted but could never find._  
 The plan is to make a complete program that can keep your tabletop D&D game going and going with very little downtime and prep.  
+This is the legacy (original) version of the program that will continue to run in C++ and terminal indefinantly.
   
 ### Main Features  
 1. **Player Characters.** Build and Manage Characters. This feature might be useful for Players too.
