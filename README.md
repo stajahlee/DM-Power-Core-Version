@@ -38,6 +38,7 @@ This is the legacy (original) version of the program that will continue to run u
     * ```cd DM-Power-Core-Version``` to enter the main directory
     * ```make```  to compile the program with gcc
     * After it compiles, type ```./dmpower``` to run the program.
+    * TL;DR - download, go to directory, type 'make run', profit
 
 2. Windows
     * Use Cygwin 64 or 32 bit. When installing Cygwin search 'gcc' and then install all, same with 'git' and same with 'make'  (this will take a while to complete the install)
