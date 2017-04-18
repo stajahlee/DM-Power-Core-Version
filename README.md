@@ -7,13 +7,13 @@
 * Designed for Dungeons & Dragons 5th Edition and is best suited for Dungeon Masters (specifically designed for me personally, I'm just building what I would want). Players may also enjoy it for the character building functions.  
 
 
-<img src="./Screenshots/cliscreenshot.png" height="144px" align="left">
+<img src="Screenshots/cliscreenshot.png" height="144px" align="left">
 
-<img src="./Screenshots/cliscreenshot_characters.png" height="144px" align="left">
+<img src="Screenshots/cliscreenshot_characters.png" height="144px" align="left">
 
-<img src="./Screenshots/cliscreenshot_characters2.png" height="144px" align="left">
+<img src="Screenshots/cliscreenshot_characters2.png" height="144px" align="left">
 
-<img src="./Screenshots/cliscreenshot_treasure.png" height="144px" align="center">
+<img src="Screenshots/cliscreenshot_treasure.png" height="144px" align="center">
 
 ### Features 2 big tools, and a few smaller ones.
 
