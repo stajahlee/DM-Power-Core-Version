@@ -7,7 +7,9 @@
 
 
 ### Features 2 big tools, and a few smaller ones.
+
 <img src="./cliscreenshot.png" height="288px" align="right">
+
 1. **CHARACTER RECORDS** 
     * Build and Manage Player Characters.
     * Walk through and answer the prompts to create a full character _by the book_.
