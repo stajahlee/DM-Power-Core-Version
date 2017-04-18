@@ -1,6 +1,8 @@
 
 # The DMPOWER project
 
+<img src="./cliscreenshot.png" height="144px" align="right">
+
 * My original plan was to make a complete program that can aid in keeping your tabletop D&D game going, and with very little downtime and prep from the dungeon master working on the fly.
 * It is basically, _the program I've always wanted but could never find._ 
 * Designed for Dungeons & Dragons 5th Edition and is best suited for Dungeon Masters (specifically designed for me personally, I'm just building what I would want). Players may also enjoy it for the character building functions.  
@@ -8,9 +10,10 @@
 
 ### Features 2 big tools, and a few smaller ones.
 
-<img src="./cliscreenshot.png" height="288px" align="right">
+<img src="./cliscreenshot_characters.png" height="72px" align="right">
 
 1. **CHARACTER RECORDS** 
+
     * Build and Manage Player Characters.
     * Walk through and answer the prompts to create a full character _by the book_.
     * Levels 1-20
@@ -26,13 +29,19 @@
     * Level Ups. A Character Editor Function allows Level up and prompts new Class Path options, feats, stats increases. By the Book.
     * Allows Saving all your characters and loading back up at any time.
     * Limitations : No Multiclassing, No Picking Spells(does show slots available), No Picking Equipment.
+
+<img src="./cliscreenshot_treasure.png" height="72px" align="right">
+
 2. **REWARD LOOT HELPER** 
+
     * Magic Item / Reward Roller (by the DM Guide)
     * Scroll and Spellbook Generators. **Hidden Gem**  
     * All Loot Reward rolling charts from the DMG. Magical items, gems, art, currency. Done by the book's logic. Any rolled scrolls are automatically ran through the Random Scroll Generator. **Hidden Gem** 
     * Spellbook creator that randomizes included wizard spells, just tell it how many of each level and it does the rest. Perfect for when a player asks 'What is in this stolen/looted NPC wizard spellbook?' **Hidden Gem** 
     * Random Scroll generator, just tell it what level scroll and it gives a random spell of that level. **Hidden Gem** 
+
 3. **Additional Tools**  
+
     * Party Experience Calculator. Total up session or encounter experience and split it with the party. This feature is pretty straightforward.  
     * Name Generator. 7732 names from Kismet's list randomized. Super nice for when the players just keep asking what the NPC's names are that you didn't plan in advance. **Hidden Gem**   
     * Insult Generator. NSFW. For when you just need to anger the PC's or antagonize them with a baddie. I just threw this in for fun.
