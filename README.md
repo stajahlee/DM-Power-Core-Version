@@ -1,7 +1,6 @@
 
 # The DMPOWER project
 
-<img src="./cliscreenshot.png" height="144px" align="right">
 
 * My original plan was to make a complete program that can aid in keeping your tabletop D&D game going, and with very little downtime and prep from the dungeon master working on the fly.
 * It is basically, _the program I've always wanted but could never find._ 
@@ -10,7 +9,9 @@
 
 ### Features 2 big tools, and a few smaller ones.
 
-<img src="./cliscreenshot_characters.png" height="72px" align="right">
+<img src="./cliscreenshot.png" height="144px" align="right">
+
+<img src="./cliscreenshot_characters.png" height="144px" align="right">
 
 1. **CHARACTER RECORDS** 
 
@@ -30,7 +31,7 @@
     * Allows Saving all your characters and loading back up at any time.
     * Limitations : No Multiclassing, No Picking Spells(does show slots available), No Picking Equipment.
 
-<img src="./cliscreenshot_treasure.png" height="72px" align="right">
+<img src="./cliscreenshot_treasure.png" height="144px" align="right">
 
 2. **REWARD LOOT HELPER** 
 
