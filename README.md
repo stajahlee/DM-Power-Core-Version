@@ -9,7 +9,7 @@
 
 <img src="./cliscreenshot.png" height="144px" align="left">
 
-<img src="./cliscreenshot_characters.png" height="144px" align="center">
+<img src="./cliscreenshot_characters.png" height="144px" align="left">
 
 <img src="./cliscreenshot_treasure.png" height="144px" align="center">
 
