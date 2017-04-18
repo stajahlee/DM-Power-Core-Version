@@ -41,10 +41,14 @@
 #### How do you run this?  
 
 * Linux.
-	* c++11  ````sudo apt-get install build-essentials````
-	* compile ````make````
-	* run ````./dmpower````
-	* compile and run ````make run````
+	* c++11  
+		* ````sudo apt-get install build-essentials````
+	* compile 
+		* ````make````
+	* run 
+		* ````./dmpower````
+	* compile and run 
+		* ````make run````
 
 
 #### Problems?
@@ -60,11 +64,11 @@
 * This program doesn't replace them or go into details about what abilities, spells, and items do, so you'll be lost without the books. I highly recommend purchasing them from a qualified vendor.
 * Material and Data (other than the names and insult lists) by Wizards of the Coast  
 * Why did I go through the pain of making this? Ever since I started playing D&D many years ago, I began looking for useful programs to go along with the game. There seemed to be a million little half-built tools and websites or many that don't follow the rules enough to be both useful and fair. I wasn't interested in a random person's homebrew ideas, which ruled out 90% of what I found. Since I couldn't find a program that did all this stuff legit from the books, and even Wizard's paid programs are too convoluted to be of use during gameplay, in my opinion, I decided to hack it myself. It also gave me something to work on while not taking classes and a motive to keep programming.
-* Without your help this program may never go live, I love to work on this but do have to make ends meet. Consider a friendly gesture, even nice words go a long way.
+* Without your help this program may never go live, I love to work on this but don't always have time. Consider a friendly gesture, even nice words go a long way.
 * [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=982RBXVEKD9Z8)
 * Bitcoin: 1Nwi1GBJtsuo1WQJqK83Ckr5NDJ3zwi5mM  
 
 
 #### ToDo
-* build interfaced version _in progress_ [dev_SDL2](https://github.com/bytePro17124/DMPOWER/tree/dev_SDL2) branch [master_SDL2](https://github.com/bytePro17124/DMPOWER/tree/master_SDL2)
+* build interfaced version : _in progress_ : [dev_SDL2](https://github.com/bytePro17124/DMPOWER/tree/dev_SDL2) branch [master_SDL2](https://github.com/bytePro17124/DMPOWER/tree/master_SDL2)
 * improve tools
