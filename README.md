@@ -77,7 +77,7 @@ My original plan was and still is to create a complete program that can aid in y
 
 #### About
 
-* All Code by [**_Matthew Jay Early_**](https://twitter.com/matthewjearly) 
+* All Code by [**_Matthew Jay Early_**](https://twitter.com/matthewjayearly) 
 * Email : [matthewjearly@gmail.com](mailto::matthewjearly@gmail.com)  
 * This program doesn't replace them or go into details about what abilities, spells, and items do, so you'll be lost without the books. I highly recommend purchasing them from a qualified vendor.
 * Material and Data (other than the names and insult lists) by Wizards of the Coast  
