@@ -1,73 +1,68 @@
-# DMPOWER
+<img src="./cliscreenshot.png" height="144px" align="right">
 
-_The program I've always wanted but could never find._
+# The DMPOWER project
 
-## The Goal
+* My original plan was to make a complete program that can aid in keeping your tabletop D&D game going, and with very little downtime and prep from the dungeon master working on the fly.
+* It is basically, _the program I've always wanted but could never find._ 
+* Designed for Dungeons & Dragons 5th Edition and is best suited for Dungeon Masters (specifically designed for me personally, I'm just building what I would want). Players may also enjoy it for the character building functions.  
 
-The plan is to make a complete Dungeon Master Aid program that can keep your tabletop D&D game going and going with very little downtime and prep.
-This is the legacy (original) version of the program that will continue to run using C++11 and Command Line indefinantly.
 
-## Main Program Features
+### Features 2 big tools, and a few smaller ones.
+1. **CHARACTER RECORDS** 
+    * Build and Manage Player Characters.
+    * Walk through and answer the prompts to create a full character _by the book_.
+    * Levels 1-20
+    * Official options from the offical 5e books : Dungeon Master's Guide, Player's Handbook, and Sword Coast Adventurer's Guide.  
+    * All Classes, 
+    * All Archetype Paths,
+    * All Races, 
+    * All Feats, 
+    * All Skills, 
+    * All Proficiencies, 
+    * All Backgrounds,
+    * Stats Options : Rolling Low or High Powered, Standard Recommended Starting Stats, or Custom Entry
+    * Level Ups. A Character Editor Function allows Level up and prompts new Class Path options, feats, stats increases. By the Book.
+    * Allows Saving all your characters and loading back up at any time.
+    * Limitations : No Multiclassing, No Picking Spells(does show slots available), No Picking Equipment.
+2. **REWARD LOOT HELPER** 
+    * Magic Item / Reward Roller (by the DM Guide)
+    * Scroll and Spellbook Generators. **Hidden Gem**  
+    * All Loot Reward rolling charts from the DMG. Magical items, gems, art, currency. Done by the book's logic. Any rolled scrolls are automatically ran through the Random Scroll Generator. **Hidden Gem** 
+    * Spellbook creator that randomizes included wizard spells, just tell it how many of each level and it does the rest. Perfect for when a player asks 'What is in this stolen/looted NPC wizard spellbook?' **Hidden Gem** 
+    * Random Scroll generator, just tell it what level scroll and it gives a random spell of that level. **Hidden Gem** 
+3. **Additional Tools**  
+    * Party Experience Calculator. Total up session or encounter experience and split it with the party. This feature is pretty straightforward.  
+    * Name Generator. 7732 names from Kismet's list randomized. Super nice for when the players just keep asking what the NPC's names are that you didn't plan in advance. **Hidden Gem**   
+    * Insult Generator. NSFW. For when you just need to anger the PC's or antagonize them with a baddie. I just threw this in for fun.
+    * And More, I've probably left something out.
 
-1. **Player Characters Builder and Manager**
-    * Allows the user to walk through and create a full character by the book.
-    * All Classes, Archetype Paths, Races, Feats, Skills, Proficiencies, Backgrounds, Stats.
-        * from the 5e books: Dungeon Master's Guide, Player's Handbook, and Sword Coast Adventurer's Guide.
-    * Level 1-20. Allows leveling up on the fly.
-    * Load and Save fully functional for previously built characters.
-2. **Reward Loot Generator** Magic Item Roller, Scroll and Spellbook Generators. **In my experience while DMing and planning, I've noticed this is the program's gem.**
-    * **All** Loot Reward rolling charts from the DMG. Magical items, gems, art, currency.
-        * done by the book's logic - any rolled scrolls are automatically ran through the Random Scroll Generator. **save tons of time**
-    * Spellbook creator that randomizes wizard spells, just tell it how many of each level and it does the rest. Perfect for when a player asks 'What is in this stolen/looted NPC wizard spellbook?'
-    * Random Scroll generator, just tell it what level scroll and it gives a random spell of that level.
-3. Other Smaller Tools
-    * **Party Experience Calculator.**
-	   * Total up session or encounter experience and split it with the party. Nothing special here just a calculator pretty much.
-    * **Name Generator.**
-        * 7732 names from Kismet's list randomized. Super nice for when the players just keep asking what the NPC's names are that you didn't plan in advance.
-    * **Insult Generator.**
-	   * For when you just need to piss off the PC's or antagonize them with a baddie. I just threw this in for fun.
+#### How do you run this?  
 
-### How do you run this?
+* Linux.
+	* c++11  ````sudo apt-get install build-essentials````
+	* compile ````make````
+	* run ````./dmpower````
+	* compile and run ````make run````
 
-* This runs in terminal currently. There are Several options, you decide on what is easiest for you. Mac won't be much different than linux.
 
-1. Linux
-    * launch Terminal
-    * Clone this repo with ```git clone https://github.com/bytePro17124/DM-Power-Core-Version.git```
-    * ```cd DM-Power-Core-Version``` to enter the main directory
-    * ```make```  to compile the program with gcc
-    * After it compiles, type ```./dmpower``` to run the program.
-    * TL;DR - download, go to directory, type 'make run', profit
+#### Problems?
+  
+* If you run into a problem or something unclear - please open an issue ticket or email me. The more details the better.  
+* Anything you would like to see added to this program - open a issue ticket with the enhancement tag or email me.  
+* You are welcome to fork and work on this. If you add any changes you think will be beneficial to the program as a whole feel free to open a pull request.
 
-2. Windows
-    * Use Cygwin 64 or 32 bit. When installing Cygwin search 'gcc' and then install all, same with 'git' and same with 'make'  (this will take a while to complete the install)
-    * Follow same directions as Linux while using Cygwin Terminal
+#### About
 
-NOTE: There are probably many other ways to compile this. It is basic C++ code that is using C++11 features.
-NOTE: This program uses special colored words, which is kinda optional but unfortunantly some terminals don't display these correctly, notably the Visual Studio one.
-
-### ToDo
-
-* Work on display clarity and ease of use (ongoing).
-* Add more tools as needed to keep the game flowing.
-* Add Visuals and Windows (big job)
-
-### Problems?
-
-* If you run into a problem or something unclear - please open an issue ticket or email me. The more details the better.
-* Anything you would like to see added to this program - open a issue ticket with the enhancement tag or email me.
-
-### About
-
-* All Code by **_Matthew Jay Early_**
-* This program doesn't replace them or go into details about what abilities, spells, and items do, so you'll be lost without the books.
-* Material and Data (other than the names and insult lists) by Wizards of the Coast
-* Email me at _matthewjearly@gmail.com_
+* All Code by **_Matthew Jay Early_** 
+* Email me business at _matthewjearly@gmail.com_  
+* This program doesn't replace them or go into details about what abilities, spells, and items do, so you'll be lost without the books. I highly recommend purchasing them from a qualified vendor.
+* Material and Data (other than the names and insult lists) by Wizards of the Coast  
 * Why did I go through the pain of making this? Ever since I started playing D&D many years ago, I began looking for useful programs to go along with the game. There seemed to be a million little half-built tools and websites or many that don't follow the rules enough to be both useful and fair. I wasn't interested in a random person's homebrew ideas, which ruled out 90% of what I found. Since I couldn't find a program that did all this stuff legit from the books, and even Wizard's paid programs are too convoluted to be of use during gameplay, in my opinion, I decided to hack it myself. It also gave me something to work on while not taking classes and a motive to keep programming.
+* Without your help this program may never go live, I love to work on this but do have to make ends meet. Consider a friendly gesture, even nice words go a long way.
+* [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=982RBXVEKD9Z8)
+* Bitcoin: 1Nwi1GBJtsuo1WQJqK83Ckr5NDJ3zwi5mM  
 
-### Support
 
-The best way to  help out at this point is to Donate any amount of Mula, even a tiny bit helps and will motivate me to work on this more.
-* [PayPal](https://www.paypal.me/mattearly/)
-* Bitcoin: 1Nwi1GBJtsuo1WQJqK83Ckr5NDJ3zwi5mM
+#### ToDo
+* build interfaced version _in progress_ [dev_SDL2](https://github.com/bytePro17124/DMPOWER/tree/dev_SDL2) branch [master_SDL2](https://github.com/bytePro17124/DMPOWER/tree/master_SDL2)
+* improve tools
