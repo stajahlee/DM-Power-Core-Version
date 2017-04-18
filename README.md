@@ -7,11 +7,18 @@
 * Designed for Dungeons & Dragons 5th Edition and is best suited for Dungeon Masters (specifically designed for me personally, I'm just building what I would want). Players may also enjoy it for the character building functions.  
 
 
+<img src="./cliscreenshot.png" height="144px" align="left">
+
+<img src="./cliscreenshot_characters.png" height="144px" align="center">
+
+<img src="./cliscreenshot_treasure.png" height="144px" align="right">
+
+
+
 ### Features 2 big tools, and a few smaller ones.
 
-<img src="./cliscreenshot.png" height="144px" align="right">
 
-<img src="./cliscreenshot_characters.png" height="144px" align="right">
+
 
 1. **CHARACTER RECORDS** 
 
@@ -31,7 +38,6 @@
     * Allows Saving all your characters and loading back up at any time.
     * Limitations : No Multiclassing, No Picking Spells(does show slots available), No Picking Equipment.
 
-<img src="./cliscreenshot_treasure.png" height="144px" align="right">
 
 2. **REWARD LOOT HELPER** 
 
