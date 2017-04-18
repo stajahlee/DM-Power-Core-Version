@@ -9,16 +9,11 @@
 
 <img src="./cliscreenshot.png" height="144px" align="left">
 
-<img src="./cliscreenshot_characters.png" height="144px" align="center">
+<img src="./cliscreenshot_characters.png" height="144px" align="left">
 
-<img src="./cliscreenshot_treasure.png" height="144px" align="right">
-
-
+<img src="./cliscreenshot_treasure.png" height="144px" align="left">
 
 ### Features 2 big tools, and a few smaller ones.
-
-
-
 
 1. **CHARACTER RECORDS** 
 
