@@ -11,6 +11,8 @@
 
 <img src="./cliscreenshot_characters.png" height="144px" align="left">
 
+<img src="./cliscreenshot_characters2.png" height="144px" align="left">
+
 <img src="./cliscreenshot_treasure.png" height="144px" align="center">
 
 ### Features 2 big tools, and a few smaller ones.
