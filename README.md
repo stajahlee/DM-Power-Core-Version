@@ -7,7 +7,7 @@
 * Designed for Dungeons & Dragons 5th Edition and is best suited for Dungeon Masters (specifically designed for me personally, I'm just building what I would want). Players may also enjoy it for the character building functions.  
 
 
-<img src="./cliscreenshot.png" height="144px" align="center">
+<img src="./cliscreenshot.png" height="144px" align="left">
 
 <img src="./cliscreenshot_characters.png" height="144px" align="center">
 
