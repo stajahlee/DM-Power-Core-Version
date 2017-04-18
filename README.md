@@ -1,4 +1,4 @@
-<img src="./cliscreenshot.png" height="144px" align="right">
+<img src="./cliscreenshot.png" height="288px" align="right">
 
 # The DMPOWER project
 
