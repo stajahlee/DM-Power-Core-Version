@@ -53,14 +53,18 @@
 
 #### How do you run this?  
 
-* Linux.
+* Linux. From Command Line -
+    * clone
+        ````git clone https://github.com/bytePro17124/DMPOWER````
+    * move to directory
+        ````cd DMPOWER````
 	* c++11  
 		* ````sudo apt-get install build-essentials````
 	* compile 
 		* ````make````
 	* run 
 		* ````./dmpower````
-	* compile and run 
+	* or compile and run 
 		* ````make run````
 
 
