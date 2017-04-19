@@ -1,11 +1,10 @@
 
 # The DMPOWER Project
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=982RBXVEKD9Z8)
 
-My original plan was and still is to create a complete program that can aid in your tabletop D&D game, and with very little downtime and prep from a dungeon master working on the fly. DMPOWER is basically, _the program I've always wanted but could never find._ 
+My original plan was (and still is) to create a complete program that can aid in tabletop D&D gameplay, and require very little downtime and prep from a dungeon master working on the fly. DMPOWER is basically _the program I've always wanted but could never find._ 
  * Designed for Dungeons & Dragons 5th Edition
- * Best suited for Dungeon Masters (specifically designed for me personally, I'm just building what I would want). Players may also enjoy it for the character building functions.  
+ * Best suited for Dungeon Masters (specifically designed for me personally, I'm just building what I would want). Players may also enjoy it for speed in which character building choices can been seen and applied.  
 
 
 <img src="Screenshots/cliscreenshot.png" height="144px" align="left">
@@ -78,12 +77,15 @@ My original plan was and still is to create a complete program that can aid in y
 #### About
 
 * All Code by [**_Matthew Jay Early_**](https://twitter.com/matthewjayearly) 
-* Email : [matthewjearly@gmail.com](mailto::matthewjearly@gmail.com)  
 * This program doesn't replace them or go into details about what abilities, spells, and items do, so you'll be lost without the books. I highly recommend purchasing them from a qualified vendor.
 * Material and Data (other than the names and insult lists) by Wizards of the Coast  
 * Why did I go through the pain of making this? Ever since I started playing D&D many years ago, I began looking for useful programs to go along with the game. There seemed to be a million little half-built tools and websites or many that don't follow the rules enough to be both useful and fair. I wasn't interested in a random person's homebrew ideas, which ruled out 90% of what I found. Since I couldn't find a program that did all this stuff legit from the books, and even Wizard's paid programs are too convoluted to be of use during gameplay, in my opinion, I decided to hack it myself. It also gave me something to work on while not taking classes and a motive to keep programming.
-* Without your help this program may never go live, I love to work on this but don't always have time. Consider a friendly gesture, even nice words go a long way.
+* I love to work on this but don't always have time. Consider a friendly gesture, even nice words go a long way.
+* Email : [matthewjearly@gmail.com](mailto::matthewjearly@gmail.com) 
+* Tweet : [**_@matthewjayearly_**](https://twitter.com/matthewjayearly) 
+* [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=982RBXVEKD9Z8)
 * BTC: 1Q2Wyu4mmeq4vSkUzV688W3XqtYFQPSrDk
+
 #### ToDo
 * build interfaced version : _in progress_ 
     * [dev_SDL2](https://github.com/bytePro17124/DMPOWER/tree/dev_SDL2) branch 
