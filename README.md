@@ -1,7 +1,7 @@
 
 # The DMPOWER Project
 
-[![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Star)](https://github.com/bytePro17124/DMPOWER) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=982RBXVEKD9Z8)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=982RBXVEKD9Z8)
 
 My original plan was and still is to create a complete program that can aid in your tabletop D&D game, and with very little downtime and prep from a dungeon master working on the fly. DMPOWER is basically, _the program I've always wanted but could never find._ 
  * Designed for Dungeons & Dragons 5th Edition
@@ -85,5 +85,7 @@ My original plan was and still is to create a complete program that can aid in y
 * Without your help this program may never go live, I love to work on this but don't always have time. Consider a friendly gesture, even nice words go a long way.
 * BTC: 1Q2Wyu4mmeq4vSkUzV688W3XqtYFQPSrDk
 #### ToDo
-* build interfaced version : _in progress_ : [dev_SDL2](https://github.com/bytePro17124/DMPOWER/tree/dev_SDL2) branch [master_SDL2](https://github.com/bytePro17124/DMPOWER/tree/master_SDL2)
+* build interfaced version : _in progress_ 
+    * [dev_SDL2](https://github.com/bytePro17124/DMPOWER/tree/dev_SDL2) branch 
+    * [master_SDL2](https://github.com/bytePro17124/DMPOWER/tree/master_SDL2) branch
 * improve tools
