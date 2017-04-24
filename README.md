@@ -55,7 +55,8 @@ My original plan was (and still is) to create a complete program that can aid in
 
 * Linux. From Command Line -
     * c++11  
-        * ````sudo apt-get install build-essentials````
+        * ````sudo apt-get update````
+        * ````sudo apt-get install build-essential````
     * clone
         * ````git clone https://github.com/bytePro17124/DMPOWER````
     * move to directory
