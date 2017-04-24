@@ -19,21 +19,21 @@ My original plan was (and still is) to create a complete program that can aid in
 
 1. **CHARACTER RECORDS** 
 
-    * Build and Manage Player Characters.
-    * Walk through and answer the prompts to create a full character _by the book_.
+    * Build and Manage Player Characters
+    * Walk through the prompts to create a full character _by the book_
     * Levels 1-20
-    * Official options from the offical 5e books : Dungeon Master's Guide, Player's Handbook, and Sword Coast Adventurer's Guide.  
-    * All Classes, 
-    * All Archetype Paths,
-    * All Races, 
-    * All Feats, 
-    * All Skills, 
-    * All Proficiencies, 
-    * All Backgrounds,
-    * Stats Options : Rolling Low or High Powered, Standard Recommended Starting Stats, or Custom Entry
-    * Level Ups. A Character Editor Function allows Level up and prompts new Class Path options, feats, stats increases. By the Book.
-    * Allows Saving all your characters and loading back up at any time.
-    * Limitations : No Multiclassing, No Picking Spells(does show slots available), No Picking Equipment.
+    * All options from the official 5e books : Dungeon Master's Guide, Player's Handbook, and Sword Coast Adventurer's Guide.  
+    * All Classes
+    * All Archetype Paths
+    * All Races
+    * All Feats 
+    * All Skills 
+    * All Proficiencies 
+    * All Backgrounds
+    * Starting Stat Options : Rolling Low (3d6) or High (4d6 drop lowest) Powered or Standard Recommended Starting Stats (15,14,13,12,10,8), or Custom Entry
+    * Level Up function complete. Prompts new Class Path options, feats, stats increases, etc. By the Book. Complete.
+    * Allows Saving/Loading _all_ your character profiles
+    * Limitations : No Multiclassing, No Picking Spells (does show slots available), No Picking Equipment
 
 
 2. **REWARD LOOT HELPER** 
@@ -46,9 +46,9 @@ My original plan was (and still is) to create a complete program that can aid in
 
 3. **Additional Tools**  
 
-    * Party Experience Calculator. Total up session or encounter experience and split it with the party. This feature is pretty straightforward.  
+    * Party Experience Calculator. Total up session or encounter experience (based on CR's overcame) and split it with the party. Pretty straightforward, could use some UI improvements but it is fully functional.
     * Name Generator. 7732 names from Kismet's list randomized. Super nice for when the players just keep asking what the NPC's names are that you didn't plan in advance. **Hidden Gem**   
-    * Insult Generator. NSFW. For when you just need to anger the PC's or antagonize them with a baddie. I just threw this in for fun. It takes two lists from files and randomly combines words, easily changeable and added to.
+    * Insult Generator. NSFW. For when you just need to anger the PC's or antagonize them with a baddie. I just threw this in for fun. It takes two lists from files and randomly combines words, easily adapted to new words by editing the settings file.
     * And More, I've probably left something out.
 
 #### How do you run this?  
@@ -68,7 +68,7 @@ My original plan was (and still is) to create a complete program that can aid in
 		* ````make run````
 
 
-#### Problems?
+#### Problems? Or want to help?
   
 * If you run into a problem or something unclear - please open an issue ticket or email me. The more details the better.  
 * Anything you would like to see added to this program - open a issue ticket with the enhancement tag or email me.  
@@ -77,17 +77,16 @@ My original plan was (and still is) to create a complete program that can aid in
 #### About
 
 * All Code by [**_Matthew Jay Early_**](https://twitter.com/matthewjayearly) 
-* This program doesn't replace them or go into details about what abilities, spells, and items do, so you'll be lost without the books. I highly recommend purchasing them from a qualified vendor.
-* Material and Data (other than the names and insult lists) by Wizards of the Coast  
+* Most data (other than the names and insult lists) by Wizards of the Coast, I only claim the code and the insult list.
 * Why did I go through the pain of making this? Ever since I started playing D&D many years ago, I began looking for useful programs to go along with the game. There seemed to be a million little half-built tools and websites or many that don't follow the rules enough to be both useful and fair. I wasn't interested in a random person's homebrew ideas, which ruled out 90% of what I found. Since I couldn't find a program that did all this stuff legit from the books, and even Wizard's paid programs are too convoluted to be of use during gameplay, in my opinion, I decided to hack it myself. It also gave me something to work on while not taking classes and a motive to keep programming.
-* I love to work on this but don't always have time. Consider a friendly gesture, even nice words go a long way.
+* I love to work on this but don't always have time. Consider a friendly gesture, even nice words go a long way if you can't donate.
 * Email : [matthewjearly@gmail.com](mailto::matthewjearly@gmail.com) 
 * Tweet : [**_@matthewjayearly_**](https://twitter.com/matthewjayearly) 
 * [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=982RBXVEKD9Z8)
 * BTC: 1Q2Wyu4mmeq4vSkUzV688W3XqtYFQPSrDk
 
 #### ToDo
-* build interfaced version : _in progress_ 
+* build interfaced version : _in progress this summer_ 
     * [dev_SDL2](https://github.com/bytePro17124/DMPOWER/tree/dev_SDL2) branch 
     * [master_SDL2](https://github.com/bytePro17124/DMPOWER/tree/master_SDL2) branch
 * improve tools
