@@ -5,7 +5,7 @@
 My original plan was (and still is) to create a complete program that can aid in tabletop D&D gameplay, and require very little downtime and prep from a dungeon master working on the fly. DMPOWER is basically _the program I've always wanted but could never find._ 
  * Designed for Dungeons & Dragons 5th Edition
  * Best suited for Dungeon Masters (specifically designed for me personally, I'm just building what I would want). Players may also enjoy it for speed in which character building choices can been seen and applied.  
-
+ * Items marked **Hidden Gem** are the ones I found myself using the most when Live DMing, give them a shot.
 
 <img src="Screenshots/cliscreenshot.png" height="144px" align="left">
 
@@ -15,7 +15,7 @@ My original plan was (and still is) to create a complete program that can aid in
 
 <img src="Screenshots/cliscreenshot_treasure.png" height="144px" align="center">
 
-### Features 2 big tools, and various smaller ones.
+### Many Useful Tools
 
 1. **CHARACTER RECORDS** 
 
@@ -31,8 +31,8 @@ My original plan was (and still is) to create a complete program that can aid in
     * All Proficiencies 
     * All Backgrounds
     * Starting Stat Options : Rolling Low (3d6) or High (4d6 drop lowest) Powered or Standard Recommended Starting Stats (15,14,13,12,10,8), or Custom Entry
-    * Level Up function complete. Prompts new Class Path options, feats, stats increases, etc. By the Book. Complete.
-    * Allows Saving/Loading _all_ your character profiles
+    * Level Up! function : Prompts new Class Path options, feats, stats increases, etc
+    * Load and Save : Working, _all_ your character profiles can be stored permanently and brought back up anytime
     * Limitations : No Multiclassing, No Picking Spells (does show slots available), No Picking Equipment
 
 
@@ -40,9 +40,9 @@ My original plan was (and still is) to create a complete program that can aid in
 
     * Magic Item / Reward Roller (by the DM Guide)
     * Scroll and Spellbook Generators. **Hidden Gem**  
-    * All Loot Reward rolling charts from the DMG. Magical items, gems, art, currency. Done by the book's logic. Any rolled scrolls are automatically ran through the Random Scroll Generator. **Hidden Gem** 
-    * Spellbook creator that randomizes included wizard spells, just tell it how many of each level and it does the rest. Perfect for when a player asks 'What is in this stolen/looted NPC wizard spellbook?' **Hidden Gem** 
-    * Random Scroll generator, just tell it what level scroll and it gives a random spell of that level. **Hidden Gem** 
+    * All Loot Reward rolling charts from the DMG ; Magical items, gems, art, currency. Any rolled scrolls are automatically ran through the Random Scroll Generator so the DM knows what is behind handed out. **Hidden Gem** 
+    * Spellbook Generator : randomizes wizard spells inside, just tell it how many of each level and it does the rest. Perfect for when a player asks 'What is in this stolen/looted NPC wizard spellbook?' **Hidden Gem** 
+    * Random Scroll Generator : randomly picks a spell of the level specified, to populate an unknown scroll. **Hidden Gem** 
 
 3. **Additional Tools**  
 
