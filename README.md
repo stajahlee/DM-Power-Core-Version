@@ -7,13 +7,13 @@ My original plan was (and still is) to create a complete program that can aid in
  * Best suited for Dungeon Masters (specifically designed for me personally, I'm just building what I would want). Players may also enjoy it for speed in which character building choices can been seen and applied.  
  * Items marked **Hidden Gem** are the ones I found myself using the most when Live DMing, give them a shot.
 
-<img src="Screenshots/cliscreenshot.png" height="144px" align="left">
+<img src="screenshots/cliscreenshot.png" height="144px" align="left">
 
-<img src="Screenshots/cliscreenshot_characters.png" height="144px" align="left">
+<img src="screenshots/cliscreenshot_characters.png" height="144px" align="left">
 
-<img src="Screenshots/cliscreenshot_characters2.png" height="144px" align="left">
+<img src="screenshots/cliscreenshot_characters2.png" height="144px" align="left">
 
-<img src="Screenshots/cliscreenshot_treasure.png" height="144px" align="center">
+<img src="screenshots/cliscreenshot_treasure.png" height="144px" align="center">
 
 ### Many Useful Tools
 
