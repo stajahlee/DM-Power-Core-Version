@@ -2,10 +2,10 @@
 # The DMPOWER Project
 
 
-My original plan was (and still is) to create a complete program that can aid in tabletop D&D gameplay, and require very little downtime and prep from a dungeon master working on the fly. DMPOWER is basically _the program I've always wanted but could never find._ 
+My original plan was (and still is) to create a complete program that can aid in tabletop D&D gameplay, prep, and on the fly DMing. DMPOWER is essentially **_the program I've always wanted but could never find._** 
  * Designed for Dungeons & Dragons 5th Edition
  * Best suited for Dungeon Masters (specifically designed for me personally, I'm just building what I would want). Players may also enjoy it for speed in which character building choices can been seen and applied.  
- * Items marked **Hidden Gem** are the ones I found myself using the most when Live DMing, give them a shot.
+ * Items marked **Hidden Gem** are the ones I found myself using the most, give them a shot.
 
 <img src="screenshots/cliscreenshot.png" height="144px" align="left">
 
@@ -67,6 +67,8 @@ My original plan was (and still is) to create a complete program that can aid in
 		* ````./dmpower````
 	* or compile and run 
 		* ````make run````
+* Windows. Should work the same as Linux with Cygwin or WSL
+* MacOS. Untested but should work about the same.
 
 
 #### Problems? Or want to help?
