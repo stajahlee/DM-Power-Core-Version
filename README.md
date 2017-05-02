@@ -5,15 +5,15 @@
 My original plan was (and still is) to create a complete program that can aid in tabletop D&D gameplay, prep, and on the fly DMing. DMPOWER is essentially **_the program I've always wanted but could never find._** 
  * Designed for Dungeons & Dragons 5th Edition
  * Best suited for Dungeon Masters (specifically designed for me personally, I'm just building what I would want). Players may also enjoy it for speed in which character building choices can been seen and applied.  
- * Items marked **Hidden Gem** are the ones I found myself using the most, give them a shot.
+ * Items marked ![tinyredgem](img/tinyredgem.png) are the ones I found myself using the most, give them a shot.
 
-<img src="screenshots/cliscreenshot.png" height="144px" align="left">
+<img src="img/cliscreenshot.png" height="144px" align="left">
 
-<img src="screenshots/cliscreenshot_characters.png" height="144px" align="left">
+<img src="img/cliscreenshot_characters.png" height="144px" align="left">
 
-<img src="screenshots/cliscreenshot_characters2.png" height="144px" align="left">
+<img src="img/cliscreenshot_characters2.png" height="144px" align="left">
 
-<img src="screenshots/cliscreenshot_treasure.png" height="144px" align="center">
+<img src="img/cliscreenshot_treasure.png" height="144px" align="center">
 
 ### Many Useful Tools
 
@@ -39,15 +39,15 @@ My original plan was (and still is) to create a complete program that can aid in
 2. **REWARD LOOT HELPER** 
 
     * Magic Item / Reward Roller (by the DM Guide)
-    * Scroll and Spellbook Generators. **Hidden Gem**  
-    * All Loot Reward rolling charts from the DMG ; Magical items, gems, art, currency. Any rolled scrolls are automatically ran through the Random Scroll Generator so the DM knows what is being handed out. **Hidden Gem** 
-    * Spellbook Generator : randomizes wizard spells within, just tell it how many of each level and it does the rest. Perfect for when a player asks 'What is in this stolen/looted NPC wizard spellbook?' **Hidden Gem** 
-    * Random Scroll Generator : randomly picks a spell of the level specified, to populate an unknown scroll. **Hidden Gem** 
+    * Scroll and Spellbook Generators. ![tinyredgem](img/tinyredgem.png)  
+    * All Loot Reward rolling charts from the DMG ; Magical items, gems, art, currency. Any rolled scrolls are automatically ran through the Random Scroll Generator so the DM knows what is being handed out. ![tinyredgem](img/tinyredgem.png) 
+    * Spellbook Generator : randomizes wizard spells within, just tell it how many of each level and it does the rest. Perfect for when a player asks 'What is in this stolen/looted NPC wizard spellbook?' ![tinyredgem](img/tinyredgem.png) 
+    * Random Scroll Generator : randomly picks a spell of the level specified, to populate an unknown scroll. ![tinyredgem](img/tinyredgem.png) 
 
 3. **Additional Tools**  
 
     * Party Experience Calculator. Total up session or encounter experience (based on CR's overcame) and split it with the party. Pretty straightforward, could use some UI improvements but it is fully functional.
-    * Name Generator. 7732 names from Kismet's list randomized. Super nice for when the players just keep asking what the NPC's names are that you didn't plan in advance. **Hidden Gem**   
+    * Name Generator. 7732 names from Kismet's list randomized. Super nice for when the players just keep asking what the NPC's names are that you didn't plan in advance. ![tinyredgem](img/tinyredgem.png)   
     * Insult Generator. NSFW. For when you just need to anger the PC's or antagonize them with a baddie. I just threw this in for fun. It takes two lists from files and randomly combines words, easily adapted to new words by editing the settings file.
     * And More, I've probably left something out.
 
