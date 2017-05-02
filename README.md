@@ -5,7 +5,8 @@
 My original plan was (and still is) to create a complete program that can aid in tabletop D&D gameplay, prep, and on the fly DMing. DMPOWER is essentially **_the program I've always wanted but could never find._** 
  * Designed for Dungeons & Dragons 5th Edition
  * Best suited for Dungeon Masters (specifically designed for me personally, I'm just building what I would want). Players may also enjoy it for speed in which character building choices can been seen and applied.  
- * Items marked ![tinyredgem](img/tinyredgem.png) are the ones I found myself using the most, give them a shot.
+ * Tools marked ![tinyredgem](img/tinyredgem.png) are the ones I found myself using the most, give them a shot.
+ * All rolls and generator randomness done with [Mersenne Twister](https://en.wikipedia.org/wiki/Mersenne_Twister), arguably the best randomizer out there.
 
 <img src="img/cliscreenshot.png" height="144px" align="left">
 
@@ -42,14 +43,14 @@ My original plan was (and still is) to create a complete program that can aid in
     * Scroll and Spellbook Generators. ![tinyredgem](img/tinyredgem.png)  
     * All Loot Reward rolling charts from the DMG ; Magical items, gems, art, currency. Any rolled scrolls are automatically ran through the Random Scroll Generator so the DM knows what is being handed out. ![tinyredgem](img/tinyredgem.png) 
     * Spellbook Generator : randomizes wizard spells within, just tell it how many of each level and it does the rest. Perfect for when a player asks 'What is in this stolen/looted NPC wizard spellbook?' ![tinyredgem](img/tinyredgem.png) 
-    * Random Scroll Generator : randomly picks a spell of the level specified, to populate an unknown scroll. ![tinyredgem](img/tinyredgem.png) 
+    * Random Scroll Generator : randomly picks a spell of the level specified, to populate an otherwise unknown scroll. ![tinyredgem](img/tinyredgem.png) 
 
 3. **Additional Tools**  
 
     * Party Experience Calculator. Total up session or encounter experience (based on CR's overcame) and split it with the party. Pretty straightforward, could use some UI improvements but it is fully functional.
     * Name Generator. 7732 names from Kismet's list randomized. Super nice for when the players just keep asking what the NPC's names are that you didn't plan in advance. ![tinyredgem](img/tinyredgem.png)   
     * Insult Generator. NSFW. For when you just need to anger the PC's or antagonize them with a baddie. I just threw this in for fun. It takes two lists from files and randomly combines words, easily adapted to new words by editing the settings file.
-    * And More, I've probably left something out.
+    * And more, I've probably left something out.
 
 #### How do you run this?  
 
@@ -81,6 +82,7 @@ My original plan was (and still is) to create a complete program that can aid in
 
 * All Code by [**_Matthew Jay Early_**](https://twitter.com/matthewjayearly) 
 * Most data (other than the names and insult lists) by Wizards of the Coast, I only claim the code and the insult list.
+* I did a lot of 'learning as I go' when building this, there are many places in the code and methods that _could_ be improved. I plan on doing that analysis when going to the interfaced version.
 * Why did I go through the pain of making this? Ever since I started playing D&D many years ago, I began looking for useful programs to go along with the game. There seemed to be a million little half-built tools and websites or many that don't follow the rules enough to be both useful and fair. I wasn't interested in a random person's homebrew ideas, which ruled out 90% of what I found. Since I couldn't find a program that did all this stuff legit from the books, and even Wizard's paid programs are too convoluted to be of use during gameplay, in my opinion, I decided to hack it myself. It also gave me something to work on while not taking classes and a motive to keep programming.
 * I love to work on this but don't always have time. Consider a friendly gesture, even nice words go a long way if you can't donate.
 * Email : [matthewjearly@gmail.com](mailto::matthewjearly@gmail.com) 
