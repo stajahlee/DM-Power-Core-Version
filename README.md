@@ -40,8 +40,8 @@ My original plan was (and still is) to create a complete program that can aid in
 
     * Magic Item / Reward Roller (by the DM Guide)
     * Scroll and Spellbook Generators. **Hidden Gem**  
-    * All Loot Reward rolling charts from the DMG ; Magical items, gems, art, currency. Any rolled scrolls are automatically ran through the Random Scroll Generator so the DM knows what is behind handed out. **Hidden Gem** 
-    * Spellbook Generator : randomizes wizard spells inside, just tell it how many of each level and it does the rest. Perfect for when a player asks 'What is in this stolen/looted NPC wizard spellbook?' **Hidden Gem** 
+    * All Loot Reward rolling charts from the DMG ; Magical items, gems, art, currency. Any rolled scrolls are automatically ran through the Random Scroll Generator so the DM knows what is being handed out. **Hidden Gem** 
+    * Spellbook Generator : randomizes wizard spells within, just tell it how many of each level and it does the rest. Perfect for when a player asks 'What is in this stolen/looted NPC wizard spellbook?' **Hidden Gem** 
     * Random Scroll Generator : randomly picks a spell of the level specified, to populate an unknown scroll. **Hidden Gem** 
 
 3. **Additional Tools**  
