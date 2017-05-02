@@ -67,7 +67,7 @@ My original plan was (and still is) to create a complete program that can aid in
 		* ````./dmpower````
 	* or compile and run 
 		* ````make run````
-* Windows. Should work the same as Linux with Cygwin or WSL
+* Windows. Should work the same as Linux with [Cygwin](https://www.cygwin.com/) or [WSL](https://msdn.microsoft.com/commandline/wsl/about)
 * MacOS. Untested but should work about the same.
 
 
