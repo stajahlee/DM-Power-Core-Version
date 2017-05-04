@@ -1,8 +1,7 @@
 
 # The DMPOWER Project
 
-
- This program is Designed for Dungeons & Dragons 5th Edition Official. The data is from:
+Designed for Dungeons & Dragons 5th Edition Official. The data is (mostly) from:
  
  | [Player's Handbook](http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook) | [Dungeon Master's Guide](http://dnd.wizards.com/products/tabletop-games/rpg-products/dungeon-masters-guide) | [Sword Coast Adventurer's Guide](http://dnd.wizards.com/products/tabletop-games/rpg-products/sc-adventurers-guide) |
  | --- | --- | --- |
@@ -15,7 +14,7 @@ My original plan was to create a helpful program for me as a Dungeon Master. Som
  * Best suited for Dungeon Masters.  
  * Tools marked ![tinyredgem](img/tinyredgem.png) are the ones I found myself using the most, give them a shot.
  * All rolls and generator randomness done with [Mersenne Twister](https://en.wikipedia.org/wiki/Mersenne_Twister), arguably the best randomizer out there.
- * Uncrashable. I've taken measures to make sure the user cannot accidentally crash the program. Go crazy testing. Bad input will result in 'Invalid choice, try again.'
+ * Uncrashable. I've taken measures to make sure the end user cannot accidentally crash the program. You can do no wrong. Go crazy testing.
 
 ### Many Useful Tools
 
