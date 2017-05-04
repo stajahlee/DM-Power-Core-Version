@@ -1,22 +1,22 @@
 
 # The DMPOWER Project
 
+
+ This program is Designed for Dungeons & Dragons 5th Edition Official. The data is from:
+ 
+ | [Player's Handbook](http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook) | [Dungeon Master's Guide](http://dnd.wizards.com/products/tabletop-games/rpg-products/dungeon-masters-guide) | [Sword Coast Adventurer's Guide](http://dnd.wizards.com/products/tabletop-games/rpg-products/sc-adventurers-guide) |
+ | --- | --- | --- |
+ | [![phb](img/DnD_PHB.png)](http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook) | [![dmg](img/DnD_DMG.png)](http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook) | [![scag](img/DnD_SCAG.png)](http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook) |
+ 
+     
 <img src="img/cliscreenshot.png" height="144px" align="left">
-
-My original plan was to create a helpful program for me as a Dungeon Master. Something to aid in tabletop play and prep. I've included tools that I felt the need for personally. Anything that could save me minutes of precious game time and assist with continuity if possible. DMPOWER is essentially **_the program I've always wanted but could never find._** 
-
- * This program is: 
-
-     * Designed for Dungeons & Dragons 5th Edition Official. The data is from:
      
-         | [Player's Handbook](http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook) | [Dungeon Master's Guide](http://dnd.wizards.com/products/tabletop-games/rpg-products/dungeon-masters-guide) | [Sword Coast Adventurer's Guide](http://dnd.wizards.com/products/tabletop-games/rpg-products/sc-adventurers-guide) |
-         | --- | --- | --- |
-         | [![phb](img/DnD_PHB.png)](http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook) | [![dmg](img/DnD_DMG.png)](http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook) | [![scag](img/DnD_SCAG.png)](http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook) |
-     
-     * Best suited for Dungeon Masters.  
-     * Tools marked ![tinyredgem](img/tinyredgem.png) are the ones I found myself using the most, give them a shot.
-     * All rolls and generator randomness done with [Mersenne Twister](https://en.wikipedia.org/wiki/Mersenne_Twister), arguably the best randomizer out there.
-     * Uncrashable. I've taken measures to make sure the user cannot accidentally crash the program. Go crazy testing if you want. Bad input will result in 'Invalid choice, try again.'
+My original plan was to create a helpful program for me as a Dungeon Master. Something to aid in tabletop play and prep. I've included tools that I felt the need for personally. Anything that could save me minutes of precious game time and assist with continuity if possible. DMPOWER is essentially the program I've always wanted but could never find. 
+
+ * Best suited for Dungeon Masters.  
+ * Tools marked ![tinyredgem](img/tinyredgem.png) are the ones I found myself using the most, give them a shot.
+ * All rolls and generator randomness done with [Mersenne Twister](https://en.wikipedia.org/wiki/Mersenne_Twister), arguably the best randomizer out there.
+ * Uncrashable. I've taken measures to make sure the user cannot accidentally crash the program. Go crazy testing. Bad input will result in 'Invalid choice, try again.'
 
 ### Many Useful Tools
 
@@ -50,10 +50,8 @@ My original plan was to create a helpful program for me as a Dungeon Master. Som
 
     _Magic Item / Reward Roller (by the DM Guide)_
     
-    * ![tinyredgem](img/tinyredgem.png) Scroll and Spellbook Generators.  
-    * ![tinyredgem](img/tinyredgem.png) All Loot Reward rolling charts from the DMG ; Magical items, gems, art, currency. Any rolled scrolls are automatically ran through the Random Scroll Generator so the DM knows what is being handed out. 
-    * ![tinyredgem](img/tinyredgem.png) Spellbook Generator : randomizes wizard spells within, just tell it how many of each level and it does the rest. Perfect for when a player asks 'What is in this stolen/looted NPC wizard spellbook?' 
-    * ![tinyredgem](img/tinyredgem.png) Random Scroll Generator : randomly picks a spell of the level specified, to populate an otherwise unknown scroll. 
+    * ![tinyredgem](img/tinyredgem.png) Scroll and Spellbook Generators : Randomized
+    * ![tinyredgem](img/tinyredgem.png) Loot Rollers : by the book. Try out the Roll Horde Loot option for some fun.
 
 3. **Additional Tools**  
 
@@ -62,7 +60,7 @@ My original plan was to create a helpful program for me as a Dungeon Master. Som
     * Party Experience Calculator. Total up session or encounter experience (based on CR's overcame) and split it with the party. Pretty straightforward, could use some UI improvements but it is fully functional.
     * ![tinyredgem](img/tinyredgem.png) Name Generator. 7732 names from Kismet's list randomized. Great for planning and on the fly naming.   
     * Insult Generator. NSFW. For when you just need to anger the PC's or antagonize them with a baddie. I just threw this in for fun. It takes two lists from files and randomly combines words, easily adapted to new words by editing the settings file.
-    * And more, I've probably left something out.
+    * And more. 
 
 #### How do you run this?  
 
