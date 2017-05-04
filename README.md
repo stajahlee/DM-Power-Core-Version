@@ -89,7 +89,7 @@ _DMPOWER is a Command Line Interface program_
 #### About
 
 * All Code by [**_Matthew Jay Early_**](https://twitter.com/matthewjayearly) 
-* [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9102RBXVEKD9Z8) I love to work on this but don't always have time. Consider a friendly gesture, nice words and alpha testing go a long way if you want to help but not donate. 
+* [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=982RBXVEKD9Z8) I love to work on this but don't always have time. Consider a friendly gesture, nice words and alpha testing go a long way if you want to help but not donate. 
 * Email : [matthewjearly@gmail.com](mailto::matthewjearly@gmail.com) 
 * Tweet : [**_@matthewjayearly_**](https://twitter.com/matthewjayearly) 
 
