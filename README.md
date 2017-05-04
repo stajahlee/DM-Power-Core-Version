@@ -7,6 +7,7 @@ My original plan was (and still is) to create a complete program that can aid in
  * Best suited for Dungeon Masters (specifically designed for me personally, I'm just building what I would want). Players may also enjoy it for speed in which character building choices can been seen and applied.  
  * Tools marked ![tinyredgem](img/tinyredgem.png) are the ones I found myself using the most, give them a shot.
  * All rolls and generator randomness done with [Mersenne Twister](https://en.wikipedia.org/wiki/Mersenne_Twister), arguably the best randomizer out there.
+ * Uncrashable. I've taken measures to make sure the user cannot accidentally crash the program. Bad input will result in 'Invalid choice, try again.'
 
 <img src="img/cliscreenshot.png" height="144px" align="left">
 
