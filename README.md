@@ -9,9 +9,10 @@
  | [![phb](img/DnD_PHB.png)](http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook) | [![dmg](img/DnD_DMG.png)](http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook) | [![scag](img/DnD_SCAG.png)](http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook) |
  
      
-<img src="img/cliscreenshot.png" height="144px" align="left">
      
 My original plan was to create a helpful program for me as a Dungeon Master. Something to aid in tabletop play and prep. I've included tools that I felt the need for personally. Anything that could save me minutes of precious game time and assist with continuity if possible. DMPOWER is essentially the program I've always wanted but could never find. 
+
+<img src="img/cliscreenshot.png" height="144px" align="right">
 
  * Best suited for Dungeon Masters.  
  * Tools marked ![tinyredgem](img/tinyredgem.png) are the ones I found myself using the most, give them a shot.
@@ -22,9 +23,9 @@ My original plan was to create a helpful program for me as a Dungeon Master. Som
 
 1. **CHARACTER RECORDS** 
 
-    <img src="img/cliscreenshot_characters.png" height="144px" align="left">
+    <img src="img/cliscreenshot_characters.png" height="144px" align="center">
     
-    <img src="img/cliscreenshot_characters2.png" height="144px" align="left">
+    <img src="img/cliscreenshot_characters2.png" height="144px" align="right">
 
     _Build and Manage Player Characters_
     
@@ -46,7 +47,7 @@ My original plan was to create a helpful program for me as a Dungeon Master. Som
 
 2. **REWARD LOOT HELPER** 
 
-    <img src="img/cliscreenshot_treasure.png" height="144px" align="left">
+    <img src="img/cliscreenshot_treasure.png" height="144px" align="right">
 
     _Magic Item / Reward Roller (by the DM Guide)_
     
@@ -55,7 +56,7 @@ My original plan was to create a helpful program for me as a Dungeon Master. Som
 
 3. **Additional Tools**  
 
-    <img src="img/cliscreenshot_other_tools.png" height="144px" align="left">
+    <img src="img/cliscreenshot_other_tools.png" height="144px" align="right">
 
     * Party Experience Calculator. Total up session or encounter experience (based on CR's overcame) and split it with the party. Pretty straightforward, could use some UI improvements but it is fully functional.
     * ![tinyredgem](img/tinyredgem.png) Name Generator. 7732 names from Kismet's list randomized. Great for planning and on the fly naming.   
