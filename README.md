@@ -8,11 +8,9 @@
  | --- | --- | --- |
  | [![phb](img/DnD_PHB.png)](http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook) | [![dmg](img/DnD_DMG.png)](http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook) | [![scag](img/DnD_SCAG.png)](http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook) |
  
-     
-     
 My original plan was to create a helpful program for me as a Dungeon Master. Something to aid in tabletop play and prep. I've included tools that I felt the need for personally. Anything that could save me minutes of precious game time and assist with continuity if possible. DMPOWER is essentially the program I've always wanted but could never find. 
 
-<img src="img/cliscreenshot.png" height="144px" align="right">
+<img src="img/cliscreenshot.png" height="82px" align="right">
 
  * Best suited for Dungeon Masters.  
  * Tools marked ![tinyredgem](img/tinyredgem.png) are the ones I found myself using the most, give them a shot.
@@ -21,11 +19,11 @@ My original plan was to create a helpful program for me as a Dungeon Master. Som
 
 ### Many Useful Tools
 
-1. **CHARACTER RECORDS** 
-
-    <img src="img/cliscreenshot_characters.png" height="144px" align="center">
+<img src="img/cliscreenshot_characters.png" height="82px" align="right">
     
-    <img src="img/cliscreenshot_characters2.png" height="144px" align="right">
+<img src="img/cliscreenshot_characters2.png" height="82px" align="center">
+    
+1. **CHARACTER RECORDS** 
 
     _Build and Manage Player Characters_
     
@@ -44,19 +42,18 @@ My original plan was to create a helpful program for me as a Dungeon Master. Som
         * Level Up! function : Prompts new Class Path options, feats, stats increases, etc
         * Limitations : No Multiclassing, No Picking Spells (does show slots available), No Picking Equipment
 
+<img src="img/cliscreenshot_treasure.png" height="82px" align="right">
 
 2. **REWARD LOOT HELPER** 
-
-    <img src="img/cliscreenshot_treasure.png" height="144px" align="right">
 
     _Magic Item / Reward Roller (by the DM Guide)_
     
     * ![tinyredgem](img/tinyredgem.png) Scroll and Spellbook Generators : Randomized
     * ![tinyredgem](img/tinyredgem.png) Loot Rollers : by the book. Try out the Roll Horde Loot option for some fun.
 
-3. **Additional Tools**  
+<img src="img/cliscreenshot_other_tools.png" height="82px" align="right">
 
-    <img src="img/cliscreenshot_other_tools.png" height="144px" align="right">
+3. **Additional Tools**  
 
     * Party Experience Calculator. Total up session or encounter experience (based on CR's overcame) and split it with the party. Pretty straightforward, could use some UI improvements but it is fully functional.
     * ![tinyredgem](img/tinyredgem.png) Name Generator. 7732 names from Kismet's list randomized. Great for planning and on the fly naming.   
