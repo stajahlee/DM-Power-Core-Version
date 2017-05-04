@@ -19,10 +19,10 @@ My original plan was to create a helpful program for me as a Dungeon Master. Som
 
 ### Many Useful Tools
 
-<img src="img/cliscreenshot_characters.png" height="102px" align="right">
-    
 <img src="img/cliscreenshot_characters2.png" height="102px" align="right">
-    
+
+<img src="img/cliscreenshot_characters.png" height="102px" align="right">
+        
 1. **CHARACTER RECORDS** 
 
     _Build and Manage Player Characters_
@@ -89,11 +89,9 @@ _DMPOWER is a Command Line Interface program_
 #### About
 
 * All Code by [**_Matthew Jay Early_**](https://twitter.com/matthewjayearly) 
-* I love to work on this but don't always have time. Consider a friendly gesture, even nice words go a long way if you can't donate.
+* [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9102RBXVEKD9Z8) I love to work on this but don't always have time. Consider a friendly gesture, nice words and alpha testing go a long way if you want to help but not donate. 
 * Email : [matthewjearly@gmail.com](mailto::matthewjearly@gmail.com) 
 * Tweet : [**_@matthewjayearly_**](https://twitter.com/matthewjayearly) 
-* [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9102RBXVEKD9Z8)
-* BTC: 1Q2Wyu4mmeq4vSkUzV688W3XqtYFQPSrDk
 
 #### ToDo
 1. build interfaced version : _in progress this summer_ 
