@@ -1,12 +1,6 @@
 
 # The DMPOWER Project
 
-Designed for Dungeons & Dragons 5th Edition Official. The data is (mostly) from:
- 
- | [Player's Handbook](http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook) | [Dungeon Master's Guide](http://dnd.wizards.com/products/tabletop-games/rpg-products/dungeon-masters-guide) | [Sword Coast Adventurer's Guide](http://dnd.wizards.com/products/tabletop-games/rpg-products/sc-adventurers-guide) |
- | --- | --- | --- |
- | [![phb](img/DnD_PHB.png)](http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook) | [![dmg](img/DnD_DMG.png)](http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook) | [![scag](img/DnD_SCAG.png)](http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook) |
- 
 My original plan was to create a helpful program for me as a Dungeon Master. Something to aid in tabletop play and prep. I've included tools that I felt the need for personally. Anything that could save me minutes of precious game time and assist with continuity if possible. DMPOWER is essentially the program I've always wanted but could never find. 
 
 <img src="img/cliscreenshot.png" height="102px" align="right">
@@ -59,7 +53,7 @@ My original plan was to create a helpful program for me as a Dungeon Master. Som
     * Insult Generator. NSFW. For when you just need to anger the PC's or antagonize them with a baddie. I just threw this in for fun. It takes two lists from files and randomly combines words, easily adapted to new words by editing the settings file.
     * And more. 
 
-#### How do you run this?  
+#### How do you run DMPOWER(./dmpower)?  
 
 _DMPOWER is a Command Line Interface program_
 
@@ -80,10 +74,22 @@ _DMPOWER is a Command Line Interface program_
 * Windows. Should work the same as Linux with [Cygwin](https://www.cygwin.com/) or [WSL](https://msdn.microsoft.com/commandline/wsl/about)
 * MacOS. Untested but should work about the same.
 
-
 #### Problems? Or want to help?
   
 * Feel free to let me know about issues. Feel free to correct stuff. 
+
+Designed for Dungeons & Dragons 5th Edition Official. The data is (mostly) from:
+ 
+ | [Player's Handbook](http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook) | [Dungeon Master's Guide](http://dnd.wizards.com/products/tabletop-games/rpg-products/dungeon-masters-guide) | [Sword Coast Adventurer's Guide](http://dnd.wizards.com/products/tabletop-games/rpg-products/sc-adventurers-guide) |
+ | --- | --- | --- |
+ | [![phb](img/DnD_PHB.png)](http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook) | [![dmg](img/DnD_DMG.png)](http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook) | [![scag](img/DnD_SCAG.png)](http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook) |
+
+#### ToDo
+
+1. build interfaced version : _in progress this summer_ 
+    * see other branches for more information
+2. improve tools
+
 
 #### About
 
@@ -91,8 +97,3 @@ _DMPOWER is a Command Line Interface program_
 * [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=45RLH5HDMQZYC) I love to work on this but don't always have time. Consider a friendly gesture, nice words and alpha testing go a long way if you want to help but not donate. 
 * Email : [matthewjearly@gmail.com](mailto::matthewjearly@gmail.com) 
 * Tweet : [**_@matthewjayearly_**](https://twitter.com/matthewjayearly) 
-
-#### ToDo
-1. build interfaced version : _in progress this summer_ 
-    * see other branches for more information
-2. improve tools
