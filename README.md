@@ -3,7 +3,7 @@
 
 My original plan was to create a helpful program for me as a Dungeon Master. Something to aid in tabletop play and prep. I've included tools that I felt the need for personally. Anything that could save me minutes of precious game time and assist with continuity if possible. DMPOWER is essentially the program I've always wanted but could never find. 
 
-<img src="img/cliscreenshot.png" height="102px" align="right">
+<img src="img/cliscreenshot.png" height="140px" align="right">
 
  * Best suited for Dungeon Masters.  
  * Tools marked ![tinyredgem](img/tinyredgem.png) are the ones I found myself using the most, give them a shot.
@@ -12,9 +12,9 @@ My original plan was to create a helpful program for me as a Dungeon Master. Som
 
 ### Many Useful Tools
 
-<img src="img/cliscreenshot_characters2.png" height="102px" align="right">
+<img src="img/cliscreenshot_characters2.png" height="140px" align="right">
 
-<img src="img/cliscreenshot_characters.png" height="102px" align="right">
+<img src="img/cliscreenshot_characters.png" height="140px" align="right">
         
 1. **CHARACTER RECORDS** 
 
@@ -35,7 +35,7 @@ My original plan was to create a helpful program for me as a Dungeon Master. Som
         * Level Up! function : Prompts new Class Path options, feats, stats increases, etc
         * Limitations : No Multiclassing, No Picking Spells (does show slots available), No Picking Equipment
 
-<img src="img/cliscreenshot_treasure.png" height="102px" align="right">
+<img src="img/cliscreenshot_treasure.png" height="140px" align="right">
 
 2. **REWARD LOOT HELPER** 
 
@@ -44,7 +44,7 @@ My original plan was to create a helpful program for me as a Dungeon Master. Som
     * ![tinyredgem](img/tinyredgem.png) Scroll and Spellbook Generators : Randomized
     * ![tinyredgem](img/tinyredgem.png) Loot Rollers : by the book. Try out the Roll Horde Loot option for some fun.
 
-<img src="img/cliscreenshot_other_tools.png" height="102px" align="right">
+<img src="img/cliscreenshot_other_tools.png" height="140px" align="right">
 
 3. **Additional Tools**  
 
