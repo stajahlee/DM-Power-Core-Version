@@ -20,7 +20,7 @@ My original plan was to create a helpful program for me as a Dungeon Master. Som
 
     _Build and Manage Player Characters_
     
-    * Walk through the prompts to create a full character _by the book_
+    * ![tinybluegem](img/tinybluegem.png) Walk through the prompts to create a full character _by the book_
         * Save + Load
         * For Levels 1 to 20
         * All options from the official 5e books : Dungeon Master's Guide, Player's Handbook, and Sword Coast Adventurer's Guide.  
@@ -44,8 +44,6 @@ My original plan was to create a helpful program for me as a Dungeon Master. Som
     * ![tinyredgem](img/tinyredgem.png) Scroll and Spellbook Generators : Randomized
     * ![tinyredgem](img/tinyredgem.png) Loot Rollers : by the book. Try out the Roll Horde Loot option for some fun.
 
-<img src="img/cliscreenshot_other_tools.png" height="175px" align="right">
-
 3. **Additional Tools**  
 
     * Party Experience Calculator. Total up session or encounter experience (based on CR's overcame) and split it with the party. Pretty straightforward, could use some UI improvements but it is fully functional.
@@ -58,18 +56,18 @@ My original plan was to create a helpful program for me as a Dungeon Master. Som
 _DMPOWER is a Command Line Interface program_
 
 * Linux. From Command Line -
-    * c++11 dependencies
+    1. c++11 dependencies
         * ````sudo apt-get update````
-        * ````sudo apt-get install build-essential````
-    * clone from github
+        * ````sudo apt-get install build-essential make gcc````
+    2. clone from github
         * ````git clone https://github.com/bytePro17124/DMPOWER````
-    * move to directory
+    3. move to directory
         * ````cd DMPOWER````
-	* compile 
+	4. compile 
 		* ````make````
-	* run 
+	5. run 
 		* ````./dmpower````
-	* or compile and run 
+	9. or compile and run 
 		* ````make run````
 * Windows. Should work the same as Linux with [Cygwin](https://www.cygwin.com/) or [WSL](https://msdn.microsoft.com/commandline/wsl/about)
 * MacOS. Untested but should work about the same.
