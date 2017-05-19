@@ -1,16 +1,15 @@
-
 # The DMPOWER Project
 
-My original plan was to create a helpful program for me as a Dungeon Master. Something to aid in tabletop play and prep. I've included tools that I felt the need for personally. Anything that could save me minutes of precious game time and assist with continuity if possible. DMPOWER is essentially the program I've always wanted but could never find. 
+My original plan was to create a helpful program for me as a Dungeon Master. Anything that could save me precious minutes of game time and keep it the same old D&D, just better and faster.
 
 <img src="img/cliscreenshot.png" height="175px" align="right">
 
- * Best suited for Dungeon Masters.  
+ * This tool is best suited for Dungeon Masters.  
  * Tools marked ![tinyredgem](img/tinyredgem.png) are the ones I found myself using the most, give them a shot.
  * All rolls and generator randomness done with [Mersenne Twister](https://en.wikipedia.org/wiki/Mersenne_Twister), arguably the best randomizer out there.
  * Uncrashable. I've taken measures to make sure the end user cannot accidentally crash the program. You can do no wrong. Go crazy testing.
 
-### Many Useful Tools
+## Suite
 
 <img src="img/cliscreenshot_characters2.png" height="175px" align="right">
 
@@ -58,7 +57,7 @@ _DMPOWER is a Command Line Interface program_
 * Linux. From Command Line -
     1. c++11 dependencies
         * ````sudo apt-get update````
-        * ````sudo apt-get install build-essential make gcc````
+        * ````sudo apt-get install build-essential make gcc git````
     2. clone from github
         * ````git clone https://github.com/bytePro17124/DMPOWER````
     3. move to directory
@@ -72,11 +71,10 @@ _DMPOWER is a Command Line Interface program_
 * Windows. Should work the same as Linux with [Cygwin](https://www.cygwin.com/) or [WSL](https://msdn.microsoft.com/commandline/wsl/about)
 * MacOS. Untested but should work about the same.
 
-#### Problems? Or want to help?
+#### More
   
-* Feel free to let me know about issues. Feel free to correct stuff. 
-
-Designed for Dungeons & Dragons 5th Edition Official. The data is (mostly) from:
+* Feel free to let me know about issues. Feel free to correct stuff and make pull requests. 
+* Designed for Dungeons & Dragons 5th Edition Official. The data is (mostly) from:
  
  | [Player's Handbook](http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook) | [Dungeon Master's Guide](http://dnd.wizards.com/products/tabletop-games/rpg-products/dungeon-masters-guide) | [Sword Coast Adventurer's Guide](http://dnd.wizards.com/products/tabletop-games/rpg-products/sc-adventurers-guide) |
  | --- | --- | --- |
@@ -89,7 +87,7 @@ Designed for Dungeons & Dragons 5th Edition Official. The data is (mostly) from:
 2. improve tools
 
 
-#### About
+#### About Me
 
 * All Code by [**_Matthew Jay Early_**](https://twitter.com/matthewjayearly) 
 * [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=45RLH5HDMQZYC) I love to work on this but don't always have time. Consider a friendly gesture, nice words and alpha testing go a long way if you want to help but not donate. 
