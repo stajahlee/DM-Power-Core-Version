@@ -1,5 +1,13 @@
 # Dungeon Master Power Core Version
 
+<img src="img/cliscreenshot.png" height="140px" align="left">
+
+<img src="img/cliscreenshot_characters2.png" height="140px" align="left">
+
+<img src="img/cliscreenshot_characters.png" height="140px" align="left">
+
+<img src="img/cliscreenshot_treasure.png" height="140px" align="center">
+
 ### 0. Suite Index
 
 1. [Introduction](#1-introduction)
@@ -11,14 +19,6 @@
 7. [Credits](#7-credits)
 
 ---
-
-<img src="img/cliscreenshot.png" height="160px" align="left">
-
-<img src="img/cliscreenshot_characters2.png" height="160px" align="left">
-
-<img src="img/cliscreenshot_characters.png" height="160px" align="left">
-
-<img src="img/cliscreenshot_treasure.png" height="160px" align="center">
 
 #### 1. Introduction
        
@@ -52,6 +52,8 @@ _DMPOWER is a Command Line Interface program_
 * Windows. Should work the same as Linux with [Cygwin](https://www.cygwin.com/) or [WSL](https://msdn.microsoft.com/commandline/wsl/about)
 * MacOS. Untested but should work about the same.
 
+[back to index](#0-suite-index)
+
 ---
 
 #### 3. Character Builder
@@ -67,6 +69,8 @@ _Build and Manage Player Characters_
         3. Sword Coast Adventurer's Guide (adds class archetype paths, backgrounds, and a few other things)  
     * Limitations : Doesn't handle equipment, spell choices, or multiclassing
 
+[back to index](#0-suite-index)
+
 ---
 
 #### 4. Reward Loot
@@ -76,11 +80,15 @@ _Magic Item / Reward Roller (by the DM Guide)_
 * ![tinyredgem](img/tinyredgem.png) Scroll and Spellbook Generators : Randomized
 * ![tinyredgem](img/tinyredgem.png) Loot Rollers : by the book. Try out the Roll Horde Loot option for some fun.
 
+[back to index](#0-suite-index)
+
 ---
 
 #### 5. Kismet's Random Name
 
 * ![tinyredgem](img/tinyredgem.png) Name Generator. 7732 names from Kismet's list randomized. Great for planning and on the fly naming.   
+
+[back to index](#0-suite-index)
 
 ---
 
@@ -89,6 +97,8 @@ _Magic Item / Reward Roller (by the DM Guide)_
 * Party Experience Calculator. Total up session or encounter experience (based on CR's overcame) and split it with the party. Pretty straightforward, could use some UI improvements but it is fully functional.
 * Insult Generator. NSFW. For when you just need to anger the PC's or antagonize them with a baddie. I just threw this in for fun. It takes two lists from files and randomly combines words, easily adapted to new words by editing the settings file.
 * And more. 
+
+[back to index](#0-suite-index)
 
 ---
 
@@ -104,6 +114,8 @@ _Magic Item / Reward Roller (by the DM Guide)_
 * [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=45RLH5HDMQZYC) I love to work on this but don't always have time. Consider a friendly gesture, nice words and alpha testing go a long way if you want to help but not donate. 
 * Email : [matthewjearly@gmail.com](mailto::matthewjearly@gmail.com) 
 * Tweet : [**_@matthewjayearly_**](https://twitter.com/matthewjayearly) 
+
+[back to index](#0-suite-index)
 
 ---
 # Dev
