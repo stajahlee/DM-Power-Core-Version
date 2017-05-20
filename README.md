@@ -19,20 +19,14 @@ My original plan was to create a helpful program for me as a Dungeon Master. Any
 
     _Build and Manage Player Characters_
     
-    * ![tinybluegem](img/tinybluegem.png) Walk through the prompts to create a full character _by the book_
-        * Save + Load
-        * For Levels 1 to 20
-        * All options from the official 5e books : Dungeon Master's Guide, Player's Handbook, and Sword Coast Adventurer's Guide.  
-        * All Classes
-        * All Archetype Paths
-        * All Races
-        * All Feats 
-        * All Skills 
-        * All Proficiencies 
-        * All Backgrounds
-        * Starting Stat Options : Rolling Low (3d6) or High (4d6 drop lowest) Powered or Standard Recommended Starting Stats (15,14,13,12,10,8), or Custom Entry
-        * Level Up! function : Prompts new Class Path options, feats, stats increases, etc
-        * Limitations : No Multiclassing, No Picking Spells (does show slots available), No Picking Equipment
+    * ![tinyredgem](img/tinyredgem.png) Walk through the prompts to create a full character _by the book_
+        * Save & Load, levels 1 to 20, versatile starting stat options, leveling up auto prompts new options.
+        * All Classes, Races, Paths, Feats, Skills, Proficiencies, Backgrounds
+        * EVERY OPTION from three official 5th edition books 
+            1. Player's Handbook
+            2. Dungeon Master's Guide (adds evil paladin paths and a few others)
+            3. Sword Coast Adventurer's Guide (adds class archetype paths, backgrounds, and a few other things)  
+        * Limitations : Doesn't handle equipment, spell choices, or multiclassing
 
 <img src="img/cliscreenshot_treasure.png" height="175px" align="right">
 
