@@ -98,7 +98,7 @@ _Magic Item / Reward Roller (by the DM Guide)_
 
 * Party Experience Calculator. Total up session or encounter experience (based on CR's overcame) and split it with the party. Pretty straightforward, could use some UI improvements but it is fully functional.
 * Insult Generator. NSFW. For when you just need to anger the PC's or antagonize them with a baddie. I just threw this in for fun. It takes two lists from files and randomly combines words, easily adapted to new words by editing the settings file.
-* And more. 
+* Posion prices chart, madness chart, and more. 
 
 [back to index](#0-suite-index)
 
