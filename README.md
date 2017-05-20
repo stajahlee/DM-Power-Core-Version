@@ -113,9 +113,6 @@ _Magic Item / Reward Roller (by the DM Guide)_
  | [![phb](img/DnD_PHB.png)](http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook) | [![dmg](img/DnD_DMG.png)](http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook) | [![scag](img/DnD_SCAG.png)](http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook) |
 
 * All Code by [**_Matthew Jay Early_**](https://twitter.com/matthewjayearly) 
-* [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=45RLH5HDMQZYC) I love to work on this but don't always have time. Consider a friendly gesture, nice words and alpha testing go a long way if you want to help but not donate. 
-* Email : [matthewjearly@gmail.com](mailto::matthewjearly@gmail.com) 
-* Tweet : [**_@matthewjayearly_**](https://twitter.com/matthewjayearly) 
 
 [back to index](#0-suite-index)
 
@@ -124,6 +121,10 @@ _Magic Item / Reward Roller (by the DM Guide)_
 # Dev
 
 * Feel free to reach out about anything. Feel free to correct stuff and make pull requests.
+* Email : [matthewjearly@gmail.com](mailto::matthewjearly@gmail.com) 
+* Tweet : [**_@matthewjayearly_**](https://twitter.com/matthewjayearly) 
+* Help! I love to work on this but don't always have time. Consider a friendly gesture, nice words and alpha testing go a long way if you want to help but cannot donate. 
+* [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=45RLH5HDMQZYC)
 
 #### ToDo 
 
