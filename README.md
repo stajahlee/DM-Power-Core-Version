@@ -29,6 +29,8 @@ My original plan was to create a helpful program for me as a Dungeon Master. Any
 * All rolls and generator randomness done with [Mersenne Twister](https://en.wikipedia.org/wiki/Mersenne_Twister), arguably the best randomizer out there.
 * Uncrashable. I've taken measures to make sure the end user cannot accidentally crash the program. You can do no wrong. Go crazy testing.
 
+[back to index](#0-suite-index)
+
 ---
 
 #### 2. How To Run DM Power       
@@ -50,7 +52,7 @@ _DMPOWER is a Command Line Interface program_
 	9. or compile and run 
 		* ````make run````
 * Windows. Should work the same as Linux with [Cygwin](https://www.cygwin.com/) or [WSL](https://msdn.microsoft.com/commandline/wsl/about)
-* MacOS. Untested but should work about the same.
+* MacOS. Untested but should work about the same as linux.
 
 [back to index](#0-suite-index)
 
@@ -118,6 +120,7 @@ _Magic Item / Reward Roller (by the DM Guide)_
 [back to index](#0-suite-index)
 
 ---
+
 # Dev
 
 * Feel free to reach out about anything. Feel free to correct stuff and make pull requests.
