@@ -126,7 +126,7 @@ _Magic Item / Reward Roller (by the DM Guide)_
 * Help! I love to work on this but don't always have time. Consider a friendly gesture, nice words and alpha testing go a long way if you want to help but cannot donate. 
 * [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=45RLH5HDMQZYC)
 
-#### ToDo 
+# ToDo 
 
 1. build interfaced version
 2. improve tools
