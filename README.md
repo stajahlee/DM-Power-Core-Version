@@ -1,50 +1,31 @@
-# The DMPOWER Project
+# Dungeon Master Power Core Version
 
+### Suite Index
+
+1. [Introduction](#1-introduction)
+2. [How To Run DM Power](#2-how-to-run-dm-power)
+3. [Character Builder](#3-character-builder)
+4. [Reward Loot](#4-reward-loot)
+5. [Kismet's Random Name](#5-kismet's-random-name)
+6. [Other Tools](#6-other-tools)
+7. [Credits](#7-credits)
+
+---
+ 
+#### 1. Introduction
+       
 My original plan was to create a helpful program for me as a Dungeon Master. Anything that could save me precious minutes of game time and keep it the same old D&D, just better and faster.
 
 <img src="img/cliscreenshot.png" height="175px" align="right">
 
- * This tool is best suited for Dungeon Masters.  
- * Tools marked ![tinyredgem](img/tinyredgem.png) are the ones I found myself using the most, give them a shot.
- * All rolls and generator randomness done with [Mersenne Twister](https://en.wikipedia.org/wiki/Mersenne_Twister), arguably the best randomizer out there.
- * Uncrashable. I've taken measures to make sure the end user cannot accidentally crash the program. You can do no wrong. Go crazy testing.
+* This tool is best suited for Dungeon Masters.  
+* Tools marked ![tinyredgem](img/tinyredgem.png) are the ones I found myself using the most, give them a shot.
+* All rolls and generator randomness done with [Mersenne Twister](https://en.wikipedia.org/wiki/Mersenne_Twister), arguably the best randomizer out there.
+* Uncrashable. I've taken measures to make sure the end user cannot accidentally crash the program. You can do no wrong. Go crazy testing.
 
-## Suite
+---
 
-<img src="img/cliscreenshot_characters2.png" height="175px" align="right">
-
-<img src="img/cliscreenshot_characters.png" height="175px" align="right">
-        
-1. **CHARACTER RECORDS** 
-
-    _Build and Manage Player Characters_
-    
-    * ![tinyredgem](img/tinyredgem.png) Walk through the prompts to create a full character _by the book_
-        * Save & Load, levels 1 to 20, versatile starting stat options, leveling up auto prompts new options.
-        * All Classes, Races, Paths, Feats, Skills, Proficiencies, Backgrounds
-        * EVERY OPTION from three official 5th edition books 
-            1. Player's Handbook
-            2. Dungeon Master's Guide (adds evil paladin paths and a few others)
-            3. Sword Coast Adventurer's Guide (adds class archetype paths, backgrounds, and a few other things)  
-        * Limitations : Doesn't handle equipment, spell choices, or multiclassing
-
-<img src="img/cliscreenshot_treasure.png" height="175px" align="right">
-
-2. **REWARD LOOT HELPER** 
-
-    _Magic Item / Reward Roller (by the DM Guide)_
-    
-    * ![tinyredgem](img/tinyredgem.png) Scroll and Spellbook Generators : Randomized
-    * ![tinyredgem](img/tinyredgem.png) Loot Rollers : by the book. Try out the Roll Horde Loot option for some fun.
-
-3. **Additional Tools**  
-
-    * Party Experience Calculator. Total up session or encounter experience (based on CR's overcame) and split it with the party. Pretty straightforward, could use some UI improvements but it is fully functional.
-    * ![tinyredgem](img/tinyredgem.png) Name Generator. 7732 names from Kismet's list randomized. Great for planning and on the fly naming.   
-    * Insult Generator. NSFW. For when you just need to anger the PC's or antagonize them with a baddie. I just threw this in for fun. It takes two lists from files and randomly combines words, easily adapted to new words by editing the settings file.
-    * And more. 
-
-#### How do you run DMPOWER(./dmpower)?  
+#### 2. How To Run DM Power       
 
 _DMPOWER is a Command Line Interface program_
 
@@ -65,25 +46,72 @@ _DMPOWER is a Command Line Interface program_
 * Windows. Should work the same as Linux with [Cygwin](https://www.cygwin.com/) or [WSL](https://msdn.microsoft.com/commandline/wsl/about)
 * MacOS. Untested but should work about the same.
 
-#### More
+---
+
+#### 3. Character Builder
+
+_Build and Manage Player Characters_
+
+<img src="img/cliscreenshot_characters2.png" height="175px" align="right">
+
+<img src="img/cliscreenshot_characters.png" height="175px" align="right">
+
+* ![tinyredgem](img/tinyredgem.png) Walk through the prompts to create a full character _by the book_
+    * Save & Load, levels 1 to 20, versatile starting stat options, leveling up auto prompts new options.
+    * All Classes, Races, Paths, Feats, Skills, Proficiencies, Backgrounds
+    * EVERY OPTION from three official 5th edition books 
+        1. Player's Handbook
+        2. Dungeon Master's Guide (adds evil paladin paths and a few others)
+        3. Sword Coast Adventurer's Guide (adds class archetype paths, backgrounds, and a few other things)  
+    * Limitations : Doesn't handle equipment, spell choices, or multiclassing
+
+---
+
+#### 4. Reward Loot
+
+_Magic Item / Reward Roller (by the DM Guide)_
+
+<img src="img/cliscreenshot_treasure.png" height="175px" align="right">
+
+
+* ![tinyredgem](img/tinyredgem.png) Scroll and Spellbook Generators : Randomized
+* ![tinyredgem](img/tinyredgem.png) Loot Rollers : by the book. Try out the Roll Horde Loot option for some fun.
+
+---
+
+#### 5. Kismet's Random Name
+
+* ![tinyredgem](img/tinyredgem.png) Name Generator. 7732 names from Kismet's list randomized. Great for planning and on the fly naming.   
+
+---
+
+#### 6. Other Tools
+
+* Party Experience Calculator. Total up session or encounter experience (based on CR's overcame) and split it with the party. Pretty straightforward, could use some UI improvements but it is fully functional.
+* Insult Generator. NSFW. For when you just need to anger the PC's or antagonize them with a baddie. I just threw this in for fun. It takes two lists from files and randomly combines words, easily adapted to new words by editing the settings file.
+* And more. 
+
+---
+
+#### Credits
   
-* Feel free to let me know about issues. Feel free to correct stuff and make pull requests. 
 * Designed for Dungeons & Dragons 5th Edition Official. The data is (mostly) from:
  
  | [Player's Handbook](http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook) | [Dungeon Master's Guide](http://dnd.wizards.com/products/tabletop-games/rpg-products/dungeon-masters-guide) | [Sword Coast Adventurer's Guide](http://dnd.wizards.com/products/tabletop-games/rpg-products/sc-adventurers-guide) |
  | --- | --- | --- |
  | [![phb](img/DnD_PHB.png)](http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook) | [![dmg](img/DnD_DMG.png)](http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook) | [![scag](img/DnD_SCAG.png)](http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook) |
 
-#### ToDo
-
-1. build interfaced version : _in progress this summer_ 
-    * see other branches for more information
-2. improve tools
-
-
-#### About Me
-
 * All Code by [**_Matthew Jay Early_**](https://twitter.com/matthewjayearly) 
 * [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=45RLH5HDMQZYC) I love to work on this but don't always have time. Consider a friendly gesture, nice words and alpha testing go a long way if you want to help but not donate. 
 * Email : [matthewjearly@gmail.com](mailto::matthewjearly@gmail.com) 
 * Tweet : [**_@matthewjayearly_**](https://twitter.com/matthewjayearly) 
+
+---
+# Dev
+
+* Feel free to reach out about anything. Feel free to correct stuff and make pull requests.
+
+#### ToDo 
+
+1. build interfaced version
+2. improve tools
