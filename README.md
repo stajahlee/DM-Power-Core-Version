@@ -1,6 +1,6 @@
 # Dungeon Master Power Core Version
 
-### Suite Index
+### 0. Suite Index
 
 1. [Introduction](#1-introduction)
 2. [How To Run DM Power](#2-how-to-run-dm-power)
@@ -11,12 +11,18 @@
 7. [Credits](#7-credits)
 
 ---
- 
+
+<img src="img/cliscreenshot.png" height="160px" align="left">
+
+<img src="img/cliscreenshot_characters2.png" height="160px" align="left">
+
+<img src="img/cliscreenshot_characters.png" height="160px" align="left">
+
+<img src="img/cliscreenshot_treasure.png" height="160px" align="center">
+
 #### 1. Introduction
        
 My original plan was to create a helpful program for me as a Dungeon Master. Anything that could save me precious minutes of game time and keep it the same old D&D, just better and faster.
-
-<img src="img/cliscreenshot.png" height="175px" align="right">
 
 * This tool is best suited for Dungeon Masters.  
 * Tools marked ![tinyredgem](img/tinyredgem.png) are the ones I found myself using the most, give them a shot.
@@ -52,10 +58,6 @@ _DMPOWER is a Command Line Interface program_
 
 _Build and Manage Player Characters_
 
-<img src="img/cliscreenshot_characters2.png" height="175px" align="right">
-
-<img src="img/cliscreenshot_characters.png" height="175px" align="right">
-
 * ![tinyredgem](img/tinyredgem.png) Walk through the prompts to create a full character _by the book_
     * Save & Load, levels 1 to 20, versatile starting stat options, leveling up auto prompts new options.
     * All Classes, Races, Paths, Feats, Skills, Proficiencies, Backgrounds
@@ -70,9 +72,6 @@ _Build and Manage Player Characters_
 #### 4. Reward Loot
 
 _Magic Item / Reward Roller (by the DM Guide)_
-
-<img src="img/cliscreenshot_treasure.png" height="175px" align="right">
-
 
 * ![tinyredgem](img/tinyredgem.png) Scroll and Spellbook Generators : Randomized
 * ![tinyredgem](img/tinyredgem.png) Loot Rollers : by the book. Try out the Roll Horde Loot option for some fun.
