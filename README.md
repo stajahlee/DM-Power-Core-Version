@@ -14,7 +14,7 @@
 2. [How To Run DM Power](#2-how-to-run-dm-power)
 3. [Character Builder](#3-character-builder)
 4. [Reward Loot](#4-reward-loot)
-5. [Kismet's Random Name](#5-kismet's-random-name)
+5. [Kismet's Random Name](#5-kismet\'s-random-name)
 6. [Other Tools](#6-other-tools)
 7. [Credits](#7-credits)
 
@@ -102,7 +102,7 @@ _Magic Item / Reward Roller (by the DM Guide)_
 
 ---
 
-#### Credits
+#### 7. Credits
   
 * Designed for Dungeons & Dragons 5th Edition Official. The data is (mostly) from:
  
