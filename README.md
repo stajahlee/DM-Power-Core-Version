@@ -8,7 +8,7 @@
 
 <img src="img/cliscreenshot_treasure.png" height="140px" align="center">
 
-### 0. Suite Index
+#### 0. Index
 
 1. [Introduction](#1-introduction)
 2. [How To Run DM Power](#2-how-to-run-dm-power)
@@ -29,7 +29,7 @@ My original plan was to create a helpful program for me as a Dungeon Master. Any
 * All rolls and generator randomness done with [Mersenne Twister](https://en.wikipedia.org/wiki/Mersenne_Twister), arguably the best randomizer out there.
 * Uncrashable. I've taken measures to make sure the end user cannot accidentally crash the program. You can do no wrong. Go crazy testing.
 
-[back to index](#0-suite-index)
+[back to index](#0-index)
 
 ---
 
@@ -54,7 +54,7 @@ _DMPOWER is a Command Line Interface program_
 * Windows. Should work the same as Linux with [Cygwin](https://www.cygwin.com/) or [WSL](https://msdn.microsoft.com/commandline/wsl/about)
 * MacOS. Untested but should work about the same as linux.
 
-[back to index](#0-suite-index)
+[back to index](#0-index)
 
 ---
 
@@ -71,7 +71,7 @@ _Build and Manage Player Characters_
         3. Sword Coast Adventurer's Guide (adds class archetype paths, backgrounds, and a few other things)  
     * Limitations : Doesn't handle equipment, spell choices, or multiclassing
 
-[back to index](#0-suite-index)
+[back to index](#0-index)
 
 ---
 
@@ -82,7 +82,7 @@ _Magic Item / Reward Roller (by the DM Guide)_
 * ![tinyredgem](img/tinyredgem.png) Scroll and Spellbook Generators : Randomized
 * ![tinyredgem](img/tinyredgem.png) Loot Rollers : by the book. Try out the Roll Horde Loot option for some fun.
 
-[back to index](#0-suite-index)
+[back to index](#0-index)
 
 ---
 
@@ -90,7 +90,7 @@ _Magic Item / Reward Roller (by the DM Guide)_
 
 * ![tinyredgem](img/tinyredgem.png) Name Generator. 7732 names from Kismet's list randomized. Great for planning and on the fly naming.   
 
-[back to index](#0-suite-index)
+[back to index](#0-index)
 
 ---
 
@@ -100,7 +100,7 @@ _Magic Item / Reward Roller (by the DM Guide)_
 * Insult Generator. NSFW. For when you just need to anger the PC's or antagonize them with a baddie. I just threw this in for fun. It takes two lists from files and randomly combines words, easily adapted to new words by editing the settings file.
 * Posion prices chart, madness chart, and more. 
 
-[back to index](#0-suite-index)
+[back to index](#0-index)
 
 ---
 
@@ -114,7 +114,7 @@ _Magic Item / Reward Roller (by the DM Guide)_
 
 * All Code by [**_Matthew Jay Early_**](https://twitter.com/matthewjayearly) 
 
-[back to index](#0-suite-index)
+[back to index](#0-index)
 
 ---
 
@@ -123,8 +123,9 @@ _Magic Item / Reward Roller (by the DM Guide)_
 * Feel free to reach out about anything. Feel free to correct stuff and make pull requests.
 * Email : [matthewjearly@gmail.com](mailto::matthewjearly@gmail.com) 
 * Tweet : [**_@matthewjayearly_**](https://twitter.com/matthewjayearly) 
-* Help! I love to work on this but don't always have time. Consider a friendly gesture, nice words and alpha testing go a long way if you want to help but cannot donate. 
-* [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=45RLH5HDMQZYC)
+* Help! [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=45RLH5HDMQZYC)
+    * Any proceeds go towards the continued development of this program. 
+    * If you want to help but cannot donate: any comments or testing is greatly appreciated. 
 
 # ToDo 
 
