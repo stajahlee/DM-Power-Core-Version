@@ -17,8 +17,8 @@
 5. [Kismet's Random Name](#5-kismets-random-name)
 6. [Other Tools](#6-other-tools)
 7. [Credits](#7-credits)
-8. [Dev](#-dev)
-9. [ToDo](#-todo)
+8. [Dev](#8-dev)
+9. [ToDo](#9-todo)
 
 ---
 
@@ -120,7 +120,7 @@ _Magic Item / Reward Roller (by the DM Guide)_
 
 ---
 
-### 8.Dev
+### 8. Dev
 
 * Feel free to reach out about anything. Feel free to correct stuff and make pull requests.
     * To really get involved, the following skills will be handy: C++, SDL2 Library, Image & Audio editing , Dungeons & Dragons 5e Knowledge
