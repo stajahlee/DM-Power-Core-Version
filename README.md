@@ -1,4 +1,4 @@
-# Dungeon Master Power Core Version
+# Dungeon Master Power Core Version (DMPOWER)
 
 <img src="img/cliscreenshot.png" height="140px" align="left">
 
@@ -8,7 +8,7 @@
 
 <img src="img/cliscreenshot_treasure.png" height="140px" align="center">
 
-#### 0. Index
+### 0. Index
 
 1. [Introduction](#1-introduction)
 2. [How To Run DM Power](#2-how-to-run-dm-power)
@@ -17,12 +17,12 @@
 5. [Kismet's Random Name](#5-kismets-random-name)
 6. [Other Tools](#6-other-tools)
 7. [Credits](#7-credits)
-* [Dev](#-dev)
-* [ToDo](#-todo)
+8. [Dev](#-dev)
+9. [ToDo](#-todo)
 
 ---
 
-#### 1. Introduction
+### 1. Introduction
        
 My original plan was to create a helpful program for me as a Dungeon Master. Anything that could save me precious minutes of game time and keep it the same old D&D, just better and faster.
 
@@ -35,7 +35,7 @@ My original plan was to create a helpful program for me as a Dungeon Master. Any
 
 ---
 
-#### 2. How To Run DM Power       
+### 2. How To Run DM Power       
 
 _DMPOWER is a Command Line Interface program_
 
@@ -60,7 +60,7 @@ _DMPOWER is a Command Line Interface program_
 
 ---
 
-#### 3. Character Builder
+### 3. Character Builder
 
 _Build and Manage Player Characters_
 
@@ -77,7 +77,7 @@ _Build and Manage Player Characters_
 
 ---
 
-#### 4. Reward Loot
+### 4. Reward Loot
 
 _Magic Item / Reward Roller (by the DM Guide)_
 
@@ -88,7 +88,7 @@ _Magic Item / Reward Roller (by the DM Guide)_
 
 ---
 
-#### 5. Kismet's Random Name
+### 5. Kismet's Random Name
 
 * ![tinyredgem](img/tinyredgem.png) Name Generator. 7732 names from Kismet's list randomized. Great for planning and on the fly naming.   
 
@@ -96,7 +96,7 @@ _Magic Item / Reward Roller (by the DM Guide)_
 
 ---
 
-#### 6. Other Tools
+### 6. Other Tools
 
 * Party Experience Calculator. Total up session or encounter experience (based on CR's overcame) and split it with the party. Pretty straightforward, could use some UI improvements but it is fully functional.
 * Insult Generator. NSFW. For when you just need to anger the PC's or antagonize them with a baddie. I just threw this in for fun. It takes two lists from files and randomly combines words, easily adapted to new words by editing the settings file.
@@ -106,7 +106,7 @@ _Magic Item / Reward Roller (by the DM Guide)_
 
 ---
 
-#### 7. Credits
+### 7. Credits
   
 * Designed for Dungeons & Dragons 5th Edition Official. The data is (mostly) from:
  
@@ -120,16 +120,23 @@ _Magic Item / Reward Roller (by the DM Guide)_
 
 ---
 
-# Dev
+### 8.Dev
 
 * Feel free to reach out about anything. Feel free to correct stuff and make pull requests.
+    * To really get involved, the following skills will be handy: C++, SDL2 Library, Image & Audio editing , Dungeons & Dragons 5e Knowledge
 * Email : [matthewjearly@gmail.com](mailto::matthewjearly@gmail.com) 
 * Tweet : [**_@matthewjayearly_**](https://twitter.com/matthewjayearly) 
 * Help! [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=45RLH5HDMQZYC)
     * Any proceeds go towards the continued development of this program. 
     * If you want to help but cannot donate: any comments or testing is greatly appreciated. 
 
-# ToDo 
+[back to index](#0-index)
 
-1. build interfaced version
+---
+
+### 8. ToDo 
+
+1. build interfaced version that works on any OS
 2. improve tools
+
+[back to index](#0-index)
