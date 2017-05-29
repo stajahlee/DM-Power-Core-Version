@@ -62,9 +62,9 @@ _DMPOWER is a Command Line Interface program_
 
 ### 3. Character Builder
 
-_Build and Manage Player Characters_
+<img src="img/cliscreenshot_character.png" height="210px" align="right">
 
-<img src="img/cliscreenshot_character.png" height="160px" align="right">
+_Build and Manage Player Characters_
 
 * ![tinyredgem](img/tinyredgem.png) Walk through the prompts to create a full character _by the book_
     * Save & Load, levels 1 to 20, versatile starting stat options, leveling up auto prompts new options.
