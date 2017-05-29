@@ -62,7 +62,7 @@ _DMPOWER is a Command Line Interface program_
 
 ### 3. Character Builder
 
-<img src="img/cliscreenshot_character.png" height="210px" align="right">
+<img src="img/cliscreenshot_character.png" height="290px" align="right">
 
 _Build and Manage Player Characters_
 
