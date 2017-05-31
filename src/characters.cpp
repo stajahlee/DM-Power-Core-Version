@@ -5069,7 +5069,7 @@ void Generic_Character_Class::setAnyFeat()
 	}
 	if (ss == 32)
 	{
-	    gainRavage_attaker(set);
+            gainSavage_attaker(set);
 	}
 	if (ss == 33)
 	{
@@ -5516,12 +5516,12 @@ void Generic_Character_Class::gainRitual_caster(bool &s)
 	cout << "Feat already known.\n";
     }
 }
-void Generic_Character_Class::gainRavage_attaker(bool &s)
+void Generic_Character_Class::gainSavage_attaker(bool &s)
 {
     if (!savage_attacker)
     {
 	savage_attacker = true;
-	cout << "Ravage Attacker learned!\n";
+        cout << "Savage Attacker learned!\n";
 	s = true;
     }
     else

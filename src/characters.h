@@ -31,7 +31,7 @@ public:
     int level, hitdicesize, move_speed, proficiency_bonus,
     extra_attack, expertise;
     //LEVEL UP MENU TRACKERS
-	int clericlevelupmenus, fighterlevelupmenus, roguelevelupmenus, wizardlevelupmenus,\
+    int clericlevelupmenus, fighterlevelupmenus, roguelevelupmenus, wizardlevelupmenus,\
     barbarianlevelupmenus, druidlevelupmenus, paladinlevelupmenus, sorcererlevelupmenus,\
     bardlevelupmenus, monklevelupmenus, rangerlevelupmenus, warlocklevelupmenus;
     //CLERIC
@@ -221,7 +221,7 @@ public:
     void gainPolearm_master(bool& s);
     void gainResilient(bool& s);
     void gainRitual_caster(bool& s);
-    void gainRavage_attaker(bool& s);
+    void gainSavage_attaker(bool& s);
     void gainSentinel(bool& s);
     void gainSharpshooter(bool& s);
     void gainShield_master(bool& s);
@@ -256,122 +256,122 @@ public:
 
 class Cleric : public Generic_Character_Class {
 public:
-	Cleric() {};
+    Cleric() {};
     virtual int getlevelupmenus() const {
         return clericlevelupmenus;
     };
 
-	virtual void setClassDetails(const int& l);
+    virtual void setClassDetails(const int& l);
 };
 
 class Fighter : public Generic_Character_Class {
 public:
-	Fighter() {};
+    Fighter() {};
     virtual int getlevelupmenus() const {
         return fighterlevelupmenus;
     };
 
-	virtual void setClassDetails(const int& l);
+    virtual void setClassDetails(const int& l);
 };
 
 class Rogue : public Generic_Character_Class {
 public:
-	Rogue() {};
+    Rogue() {};
     virtual int getlevelupmenus() const {
         return roguelevelupmenus;
     };
 
-	virtual void setClassDetails(const int& l);
+    virtual void setClassDetails(const int& l);
 };
 
 class Wizard : public Generic_Character_Class {
 public:
-	Wizard() {};
+    Wizard() {};
     virtual int getlevelupmenus() const {
         return wizardlevelupmenus;
     };
 
-	virtual void setClassDetails(const int& l);
+    virtual void setClassDetails(const int& l);
 };
 
 class Barbarian : public Generic_Character_Class {
 public:
-	Barbarian() {};
+    Barbarian() {};
     virtual int getlevelupmenus() const {
         return barbarianlevelupmenus;
     };
 
-	virtual void setClassDetails(const int& l);
+    virtual void setClassDetails(const int& l);
 };
 
 class Druid : public Generic_Character_Class {
 public:
-	Druid() {};
+    Druid() {};
     virtual int getlevelupmenus() const {
         return druidlevelupmenus;
     };
 
-	virtual void setClassDetails(const int& l);
+    virtual void setClassDetails(const int& l);
 };
 
 class Paladin : public Generic_Character_Class {
 public:
-	Paladin() {};
+    Paladin() {};
     virtual int getlevelupmenus() const {
         return paladinlevelupmenus;
     };
 
-	virtual void setClassDetails(const int& l);
+    virtual void setClassDetails(const int& l);
 };
 
 class Sorcerer : public Generic_Character_Class {
 public:
-	Sorcerer() {};
+    Sorcerer() {};
     virtual int getlevelupmenus() const {
         return sorcererlevelupmenus;
     };
 
-	virtual void setClassDetails(const int& l);
+    virtual void setClassDetails(const int& l);
 };
 
 class Bard : public Generic_Character_Class {
 public:
-	Bard() {};
+    Bard() {};
     virtual int getlevelupmenus() const {
         return bardlevelupmenus;
     };
 
-	virtual void setClassDetails(const int& l);
+    virtual void setClassDetails(const int& l);
 };
 
 class Monk : public Generic_Character_Class {
 public:
-	Monk() {};
+    Monk() {};
     virtual int getlevelupmenus() const {
         return monklevelupmenus;
     };
 
-	virtual void setClassDetails(const int& l);
+    virtual void setClassDetails(const int& l);
 };
 
 class Ranger : public Generic_Character_Class {
 public:
-	Ranger() {};
+    Ranger() {};
     virtual int getlevelupmenus() const {
         return rangerlevelupmenus;
     };
 
-	virtual void setClassDetails(const int& l);
+    virtual void setClassDetails(const int& l);
 };
 
 class Warlock : public Generic_Character_Class {
 public:
-	Warlock() {};
+    Warlock() {};
     virtual int getlevelupmenus() const {
         return warlocklevelupmenus;
     };
 
-	virtual void setClassDetails(const int& l);
+    virtual void setClassDetails(const int& l);
 };
 
 #endif
