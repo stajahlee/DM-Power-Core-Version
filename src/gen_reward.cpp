@@ -83,12 +83,18 @@ void Magic_Items::treasure_menu() {
             break;
         case 5:
             showPoisons();
+            pressEnterToContinue();
+
             break;
         case 6:
             showDiseases();
+            pressEnterToContinue();
+
             break;
         case 7:
             showMadness();
+            pressEnterToContinue();
+
             break;
         case 8:
         default: break;
@@ -1121,19 +1127,19 @@ Gear Magic_Items::TableB(const char& r){
         Gear tmp(1, "Dust of sneezing and choking");
         return tmp;
     } else if (roll <= 81) {
-		string loader = "Elemental Gem";
-				int quaalvar = rolld100(mgen);
-				if (quaalvar < 26) {
-					loader += "(Blue sapphire)";
-				} else if (quaalvar < 51) {
-					loader += "(Yellow Diamond)";
-				} else if (quaalvar < 76) {
-					loader += "(Red corundum)";
-				} else {
-					loader += "(Emerald)";
-				}
-				Gear tmp(1, loader);
-				return tmp;
+        string loader = "Elemental Gem";
+        int quaalvar = rolld100(mgen);
+        if (quaalvar < 26) {
+            loader += "(Blue sapphire)";
+        } else if (quaalvar < 51) {
+            loader += "(Yellow Diamond)";
+        } else if (quaalvar < 76) {
+            loader += "(Red corundum)";
+        } else {
+            loader += "(Emerald)";
+        }
+        Gear tmp(1, loader);
+        return tmp;
     } else if (roll <= 83) {
         Gear tmp(1, "Philter of love");
         return tmp;
@@ -4475,37 +4481,37 @@ string Magic_Items::GenerateGemstone(const int& amount, const int& value) const 
             fileOfGems.seekg(len, ios_base::beg);  //return to position - return to snapshot of place in file
             if (i == 0) {           //very first gem case
                 gemstring = toString(value) + "gp Gems:" + tmpName;
-            } else { 
+            } else {
                 size_t find_position = gemstring.find(tmpName + ",");
-				if (find_position != string::npos) { //found first duplicate gemname on the list - not last item either
-					gemstring.insert(find_position+tmpName.size(), " x2");
+                if (find_position != string::npos) { //found first duplicate gemname on the list - not last item either
+                    gemstring.insert(find_position+tmpName.size(), " x2");
                 } else {
-					find_position = gemstring.find(tmpName);
-					if (find_position == string::npos) {
-						gemstring += ("," + tmpName); //add the new gem
-					} else {
-						if (gemstring.substr(find_position, tmpName.length()+3) == tmpName) {
-							gemstring.insert(find_position+tmpName.length(), " x2");
-						} else {
-							size_t gotx2 = gemstring.find(tmpName + " x2");
-							if (gotx2 != string::npos) {   //if x2 exists
-								gemstring.replace(gotx2+tmpName.size(), 3, " x3");
-							} else {
-								size_t gotx3 = gemstring.find(tmpName + " x3");
-								if (gotx3 != string::npos) {  //if x3 exists
-									gemstring.replace(gotx3+tmpName.size(), 3, " x4");
-								} else {
-									size_t gotx4 = gemstring.find(tmpName + " x4");
-									if (gotx4 != string::npos) { //if x4 exists
-										gemstring.replace(gotx4+tmpName.size(), 3, " x5");
-									} else {
-										gemstring.insert(find_position+tmpName.size(), " x2");
-									}
-								}
-							}
-						}
-					}
-				}
+                    find_position = gemstring.find(tmpName);
+                    if (find_position == string::npos) {
+                        gemstring += ("," + tmpName); //add the new gem
+                    } else {
+                        if (gemstring.substr(find_position, tmpName.length()+3) == tmpName) {
+                            gemstring.insert(find_position+tmpName.length(), " x2");
+                        } else {
+                            size_t gotx2 = gemstring.find(tmpName + " x2");
+                            if (gotx2 != string::npos) {   //if x2 exists
+                                gemstring.replace(gotx2+tmpName.size(), 3, " x3");
+                            } else {
+                                size_t gotx3 = gemstring.find(tmpName + " x3");
+                                if (gotx3 != string::npos) {  //if x3 exists
+                                    gemstring.replace(gotx3+tmpName.size(), 3, " x4");
+                                } else {
+                                    size_t gotx4 = gemstring.find(tmpName + " x4");
+                                    if (gotx4 != string::npos) { //if x4 exists
+                                        gemstring.replace(gotx4+tmpName.size(), 3, " x5");
+                                    } else {
+                                        gemstring.insert(find_position+tmpName.size(), " x2");
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }
@@ -4522,41 +4528,41 @@ string Magic_Items::GenerateArt(const int& amount, const int& value) const {
         bool setvalue = false;
         auto chosenSeed = 0;
         for (int i = 0; i < amount; i++) {  //go down into file appropriate amount and choose a proper seed
-                if (value == 25) {
-                    chosenSeed = randomNumber(0, 9);
-                    if (!setvalue) {
+            if (value == 25) {
+                chosenSeed = randomNumber(0, 9);
+                if (!setvalue) {
+                    fileOfArt.ignore(numeric_limits<streamsize>::max(), '\n');
+                }
+            }
+            else if (value == 250) {
+                chosenSeed = randomNumber(0, 9);
+                if (!setvalue) {
+                    for (int j = 0; j < 3; j++) {
                         fileOfArt.ignore(numeric_limits<streamsize>::max(), '\n');
                     }
                 }
-                else if (value == 250) {
-                    chosenSeed = randomNumber(0, 9);
-                    if (!setvalue) {
-                        for (int j = 0; j < 3; j++) {
-                            fileOfArt.ignore(numeric_limits<streamsize>::max(), '\n');
-                        }
-                    }
-                } else if (value == 750) {
-                    chosenSeed = randomNumber(0, 9);
-                    if (!setvalue) {
-                        for (int j = 0; j < 5; j++) {
-                            fileOfArt.ignore(numeric_limits<streamsize>::max(), '\n');
-                        }
-                    }
-                } else if (value == 2500) {
-                    chosenSeed = randomNumber(0, 9);
-                    if (!setvalue) {
-                        for (int j = 0; j < 7; j++) {
-                            fileOfArt.ignore(numeric_limits<streamsize>::max(), '\n');
-                        }
-                    }
-                } else if (value == 7500) {
-                    chosenSeed = randomNumber(0, 7);
-                    if (!setvalue) {
-                        for (int j = 0; j < 9; j++) {
-                            fileOfArt.ignore(numeric_limits<streamsize>::max(), '\n');
-                        }
+            } else if (value == 750) {
+                chosenSeed = randomNumber(0, 9);
+                if (!setvalue) {
+                    for (int j = 0; j < 5; j++) {
+                        fileOfArt.ignore(numeric_limits<streamsize>::max(), '\n');
                     }
                 }
+            } else if (value == 2500) {
+                chosenSeed = randomNumber(0, 9);
+                if (!setvalue) {
+                    for (int j = 0; j < 7; j++) {
+                        fileOfArt.ignore(numeric_limits<streamsize>::max(), '\n');
+                    }
+                }
+            } else if (value == 7500) {
+                chosenSeed = randomNumber(0, 7);
+                if (!setvalue) {
+                    for (int j = 0; j < 9; j++) {
+                        fileOfArt.ignore(numeric_limits<streamsize>::max(), '\n');
+                    }
+                }
+            }
             setvalue = true;
             int len = fileOfArt.tellg();   //get current position  //snapshot of place in file
             for (auto i = 0; i < chosenSeed; i++) { //go over to the proper Art rolled
@@ -4566,40 +4572,40 @@ string Magic_Items::GenerateArt(const int& amount, const int& value) const {
             fileOfArt.seekg(len, ios_base::beg);  //return to position//return to snapshot of place in file
             if (i == 0) {  //first time through
                 artstring = (toString(value) + "gp Art Objects:" + tmpName);
-            } else { 
+            } else {
                 size_t find_position = artstring.find(tmpName + ",");
-				if (find_position != string::npos) { //found first duplicate Artname on the list - not last item either
-					artstring.insert(find_position+tmpName.size(), " x2");
+                if (find_position != string::npos) { //found first duplicate Artname on the list - not last item either
+                    artstring.insert(find_position+tmpName.size(), " x2");
                 } else {
-					find_position = artstring.find(tmpName);
-					if (find_position == string::npos) {
-						artstring += ("," + tmpName); //add the new Art
-					} else {
-						if (artstring.substr(find_position, tmpName.length()+3) == tmpName) {
-							artstring.insert(find_position+tmpName.length(), " x2");
-						} else {
-							size_t gotx2 = artstring.find(tmpName + " x2");
-							if (gotx2 != string::npos) {   //if x2 exists
-								artstring.replace(gotx2+tmpName.size(), 3, " x3");
-							} else {
-								size_t gotx3 = artstring.find(tmpName + " x3");
-								if (gotx3 != string::npos) {  //if x3 exists
-									artstring.replace(gotx3+tmpName.size(), 3, " x4");
-								} else {
-									size_t gotx4 = artstring.find(tmpName + " x4");
-									if (gotx4 != string::npos) { //if x4 exists
-										artstring.replace(gotx4+tmpName.size(), 3, " x5");
-									} else {
-										artstring.insert(find_position+tmpName.size(), " x2");
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
+                    find_position = artstring.find(tmpName);
+                    if (find_position == string::npos) {
+                        artstring += ("," + tmpName); //add the new Art
+                    } else {
+                        if (artstring.substr(find_position, tmpName.length()+3) == tmpName) {
+                            artstring.insert(find_position+tmpName.length(), " x2");
+                        } else {
+                            size_t gotx2 = artstring.find(tmpName + " x2");
+                            if (gotx2 != string::npos) {   //if x2 exists
+                                artstring.replace(gotx2+tmpName.size(), 3, " x3");
+                            } else {
+                                size_t gotx3 = artstring.find(tmpName + " x3");
+                                if (gotx3 != string::npos) {  //if x3 exists
+                                    artstring.replace(gotx3+tmpName.size(), 3, " x4");
+                                } else {
+                                    size_t gotx4 = artstring.find(tmpName + " x4");
+                                    if (gotx4 != string::npos) { //if x4 exists
+                                        artstring.replace(gotx4+tmpName.size(), 3, " x5");
+                                    } else {
+                                        artstring.insert(find_position+tmpName.size(), " x2");
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
     return artstring;
 }
 
@@ -5104,7 +5110,6 @@ void Magic_Items::showPoisons() {
     poisons.erase(poisons.length()-1, poisons.length()); //erase that last random [box] character
     cout << poisons;
     poisonfile.close();
-    pressEnterToContinue();
 
 }
 
@@ -5123,7 +5128,6 @@ void Magic_Items::showDiseases() {
         diseases.erase(diseases.length()-1, diseases.length()); //erase that last random [box] character
         cout << diseases;
         diseasefile.close();
-        pressEnterToContinue();
     }
 
 }
@@ -5143,6 +5147,5 @@ void Magic_Items::showMadness() {
     madness.erase(madness.length()-1, madness.length()); //erase that last random [box] character
     cout << madness;
     madnessfile.close();
-    pressEnterToContinue();
 
 }

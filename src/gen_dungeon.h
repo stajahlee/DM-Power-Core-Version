@@ -10,7 +10,7 @@ ____________________________________________________________________________
 ____________________________________________________________________________
 **/
 
-
+#pragma once
 #ifndef DUNGEONS_GEN_H
 #define DUNGEONS_GEN_H
 
@@ -49,7 +49,7 @@ public:
     //Stocking a Dugneon
     string chamberPurpose;
 
-    private:
+private:
 
 };
 

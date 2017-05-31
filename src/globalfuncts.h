@@ -10,8 +10,7 @@ ____________________________________________________________________________
 ____________________________________________________________________________
 **/
 
-
-
+#pragma once
 #ifndef __dm_power_poly__globalfuncts__
 #define __dm_power_poly__globalfuncts__
 
@@ -57,11 +56,11 @@ static std::uniform_int_distribution<int> rolld100(1, 100);
 
 template<typename T, typename = typename std::enable_if<std::is_arithmetic<T>::value, T>::type>
 std::string toString(const T& a) {
-	std::string tmp = "";
-	std::stringstream stringconverter;
-	stringconverter << a;
-	tmp += stringconverter.str();
-	return tmp;
+    std::string tmp = "";
+    std::stringstream stringconverter;
+    stringconverter << a;
+    tmp += stringconverter.str();
+    return tmp;
 };
 
 int randomNumber(const int&, const int&);
@@ -96,12 +95,12 @@ std::string D_D_Ability_Modifier(const T& a) {
     int mod = ((a-10)/2);
     if (mod > 0) {
         tmp += "+";
-		tmp += toString(mod);
+        tmp += toString(mod);
     }
     if (mod <= 0) {
         if (a < 10 && a%2 == 1) { mod--; }
         if (mod < 0) {
-			tmp += toString(mod);
+            tmp += toString(mod);
         } else {
             tmp = "  ";
         }
@@ -115,7 +114,7 @@ void simpleClearScreen();
 
 char getYorN(const std::string&);
 
-void pressEnterToContinue();
+void pressEnterToContinue(void);
 
 int rollstats_hi_power();
 

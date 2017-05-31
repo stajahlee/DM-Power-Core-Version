@@ -35,17 +35,17 @@ int main() {
     Campaign mygame;
     load_file(loadSuccess, loadedFile, mygame);
     do {
-		cout << "\n----------MAIN MENU----------\n"
-			 << "1. Characters\n"
-			 << "2. Magic Items, Spells, Rewards, Etc\n"
-			 << "3. Experience Calculator\n"
-			 << "4. Name Generator\n"
-			 << "5. Random Encounter\n"
-			 << "6. NPC Insult\n"
-			 << "7. Save & Quit\n"
-			 << "8. Quit\n"
-			 << "-----------------------------\n" << endl;
-		choice = getNumber("Choice: ", 1, 8);
+        cout << "\n----------MAIN MENU----------\n"
+             << "1. Characters\n"
+             << "2. Magic Items, Spells, Rewards, Etc\n"
+             << "3. Experience Calculator\n"
+             << "4. Name Generator\n"
+             << "5. Random Encounter\n"
+             << "6. NPC Insult\n"
+             << "7. Save & Quit\n"
+             << "8. Quit\n"
+             << "-----------------------------\n" << endl;
+        choice = getNumber("Choice: ", 1, 8);
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
         switch (choice) {
         case 1:
@@ -60,35 +60,35 @@ int main() {
             Magic_Items gen;
             float rewardXP = gen.xpgenerator();
             simpleClearScreen();
-			cout << "XP per member = " << rewardXP << "\n\n";
+            cout << "XP per member = " << rewardXP << "\n\n";
         }
             break;
         case 4:{
             CharacterName randomName;
             simpleClearScreen();
-			cout << "Here is a name: " << randomName.grabRandomName() << "\n\n";
+            cout << "Here is a name: " << randomName.grabRandomName() << "\n\n";
         }
             break;
-		case 5:{
+        case 5:{
             Encounter encounter;
             simpleClearScreen();
             cout << encounter.Gen_Encounter();
             pressEnterToContinue();
         }
-			break;
-		case 6:{
-			Insult insult;
-			simpleClearScreen();
-			cout << "Maybe this will make the PCs mad: " << insult.laydownheat() << "\n\n";
-		}
             break;
-		case 7:
+        case 6:{
+            Insult insult;
+            simpleClearScreen();
+            cout << "Maybe this will make the PCs mad: " << insult.laydownheat() << "\n\n";
+        }
+            break;
+        case 7:
             save_file(loadSuccess, loadedFile, mygame);
         case 8:
             cout << "Exiting Program.\n";
         default: break;
         }
-	} while ( choice < 7 );
+    } while ( choice < 7 );
     return EXIT_SUCCESS;
 }
 void load_file(bool& ls, string& lf, Campaign& game) {
@@ -111,7 +111,7 @@ void load_file(bool& ls, string& lf, Campaign& game) {
 }
 void save_file(const bool& ls, const string& lf, const Campaign& game) {
     string file;
-    ofstream os;    
+    ofstream os;
     if (ls == false) {
         cout << "Save As: ";
         getline(cin, file, '\n');

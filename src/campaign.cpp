@@ -33,7 +33,7 @@ void Campaign::pc_menu() {
         case 1:
         {
             simpleClearScreen();  //non-casters - RED | arcane - YELLOW | divine - CYAN
-            cout << "Create a New Character! " 
+            cout << "Create a New Character! "
                  << YELLOW << "ARCANE " << CYAN << "DIVINE " << RED << "NON_CASTER" << RESET << "\n\n";
             cout << "Character Class:\n\n"
                  << CYAN << " 1. Cleric" << "      7. Paladin\n\n" << RESET
@@ -181,7 +181,7 @@ void Campaign::pc_menu() {
                         valid_name[0] = toupper(valid_name[0]);
                         for (list<Generic_Character_Class*>::const_iterator it = this->character_list.begin(); it != this->character_list.end(); ++it) {
                             if ((*it)->name == valid_name) {
-                               found = true;
+                                found = true;
                             }
                         }
                         if (!found) cout << "\nNo character named " << valid_name << ". List of Charcters:\n\n";
@@ -281,7 +281,7 @@ ofstream& Campaign::dumpCharacter(ofstream& os) const {
                 << (*it)->alignment << endl
                 << (*it)->level << endl
 
-                    //class level up menus prep for multiclass functions
+                   //class level up menus prep for multiclass functions
                 << (*it)->clericlevelupmenus << endl
                 << (*it)->fighterlevelupmenus << endl
                 << (*it)->roguelevelupmenus << endl
@@ -790,7 +790,7 @@ ifstream& Campaign::retrieveCharacter(ifstream& ins) {
         ins >> v->protection;
         ins.get();
         ins.ignore(numeric_limits<streamsize>::max(), '\n'); //cleric
-        ins >> v->destroy_undead;  
+        ins >> v->destroy_undead;
         ins >> v->channel_divinity;
         ins >> v->divine_domain_feature;
         ins >> v->divine_intervention;
@@ -807,7 +807,7 @@ ifstream& Campaign::retrieveCharacter(ifstream& ins) {
         ins >> v->war_d;
         ins.get();
         ins.ignore(numeric_limits<streamsize>::max(), '\n'); //fighter
-        ins >> v->action_surge;   
+        ins >> v->action_surge;
         ins >> v->martial_archtype_feature;
         ins >> v->indomitable;
         ins >> v->eldritch_spells_known;
@@ -821,7 +821,7 @@ ifstream& Campaign::retrieveCharacter(ifstream& ins) {
         ins >> v->purple_dragon_knight;
         ins.get();
         ins.ignore(numeric_limits<streamsize>::max(), '\n'); //barbarian
-        ins >> v->rages;  
+        ins >> v->rages;
         ins >> v->rage_damage;
         ins >> v->path_feature;
         ins >> v->brutal_critical;
@@ -842,7 +842,7 @@ ifstream& Campaign::retrieveCharacter(ifstream& ins) {
         ins >> v->wolf_totem;
         ins.get();
         ins.ignore(numeric_limits<streamsize>::max(), '\n');//bard
-        ins >> v->bardic_inspiration; 
+        ins >> v->bardic_inspiration;
         ins >> v->song_of_rest;
         ins >> v->bard_college_feature;
         ins >> v->magical_secrets;
@@ -870,7 +870,7 @@ ifstream& Campaign::retrieveCharacter(ifstream& ins) {
         ins >> v->circle_of_the_land;
         ins.get();
         ins.ignore(numeric_limits<streamsize>::max(), '\n');//monk
-        ins >> v->monastic_tradition_feature; 
+        ins >> v->monastic_tradition_feature;
         ins >> v->ki;
         ins >> v->unarmored_movement;
         ins >> v->martial_arts;
@@ -893,7 +893,7 @@ ifstream& Campaign::retrieveCharacter(ifstream& ins) {
         ins >> v->unarmored_movement_improvement;
         ins.get();
         ins.ignore(numeric_limits<streamsize>::max(), '\n');//paladin
-        ins >> v->sacred_oath_feature; 
+        ins >> v->sacred_oath_feature;
         ins >> v->divine_smite;
         ins >> v->divine_sense;
         ins >> v->lay_on_hands;
@@ -910,7 +910,7 @@ ifstream& Campaign::retrieveCharacter(ifstream& ins) {
         ins >> v->oathbreaker;
         ins.get();
         ins.ignore(numeric_limits<streamsize>::max(), '\n');//ranger
-        ins >> v->favored_enemy;  
+        ins >> v->favored_enemy;
         ins >> v->favored_enemy_languages;
         ins >> v->natural_explorer;
         ins >> v->ranger_archetype_feature;
@@ -926,7 +926,7 @@ ifstream& Campaign::retrieveCharacter(ifstream& ins) {
         ins >> v->beast_master;
         ins.get();
         ins.ignore(numeric_limits<streamsize>::max(), '\n');//rogue
-        ins >> v->roguish_archetype_feature; 
+        ins >> v->roguish_archetype_feature;
         ins >> v->arcane_t_spells_known;
         ins >> v->sneak_attack;
         ins >> v->thieves_cant;
@@ -945,7 +945,7 @@ ifstream& Campaign::retrieveCharacter(ifstream& ins) {
         ins >> v->swashbuckler;
         ins.get();
         ins.ignore(numeric_limits<streamsize>::max(), '\n');//sorcerer
-        ins >> v->sorcerous_origin_feature;  
+        ins >> v->sorcerous_origin_feature;
         ins >> v->metamagic;
         ins >> v->sorcery_points;
         ins >> v->sorcerer_spells_known;
@@ -958,7 +958,7 @@ ifstream& Campaign::retrieveCharacter(ifstream& ins) {
         ins >> v->storm_sorcery;
         ins.get();
         ins.ignore(numeric_limits<streamsize>::max(), '\n'); //warlock
-        ins >> v->warlock_slot_level; 
+        ins >> v->warlock_slot_level;
         ins >> v->eldritch_invocations_known;
         ins >> v->warlock_spells_known;
         ins >> v->warlock_spell_slots;
@@ -975,7 +975,7 @@ ifstream& Campaign::retrieveCharacter(ifstream& ins) {
         ins >> v->the_undying;
         ins.get();
         ins.ignore(numeric_limits<streamsize>::max(), '\n'); //wizard
-        ins >> v->arcane_tradition_feature; 
+        ins >> v->arcane_tradition_feature;
         ins >> v->wizard_cantrips_known;
         ins >> v->arcane_recovery;
         ins >> v->arcane_tradition;

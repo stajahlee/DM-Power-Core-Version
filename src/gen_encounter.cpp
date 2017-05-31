@@ -50,5 +50,5 @@ void Encounter::set_party_level() {
 }
 
 void Encounter::find_terrain() {
-  
+
 }

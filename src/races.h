@@ -10,7 +10,7 @@ ____________________________________________________________________________
 ____________________________________________________________________________
 **/
 
-
+#pragma once
 #ifndef __dm_power_poly__races__
 #define __dm_power_poly__races__
 
@@ -27,14 +27,14 @@ public:
 
 class Dragonborn : public Races {
 public:
-	
+
     virtual void setRaceDetails(Generic_Character_Class &v);
     virtual std::string getRaceString() const;
 };
 
 class Dwarf : public Races {
 public:
-	
+
     enum dwarftype { NA, HILL, MOUNTAIN };
     dwarftype subr;
     virtual void setRaceDetails(Generic_Character_Class &v);
@@ -43,7 +43,7 @@ public:
 
 class Elf : public Races {
 public:
-	
+
     enum elftype { NA, HIGH, WOOD, DROW };
     elftype subr;
     virtual void setRaceDetails(Generic_Character_Class &v);
@@ -52,7 +52,7 @@ public:
 
 class Gnome : public Races {
 public:
-	
+
     enum gnometype { NA, FOREST, ROCK };
     gnometype subr;
     virtual void setRaceDetails(Generic_Character_Class &v);
@@ -61,21 +61,21 @@ public:
 
 class Halfelf : public Races {
 public:
-	
+
     virtual void setRaceDetails(Generic_Character_Class &v);
     virtual std::string getRaceString() const;
 };
 
 class Halforc : public Races {
 public:
-	
+
     virtual void setRaceDetails(Generic_Character_Class &v);
     virtual std::string getRaceString() const;
 };
 
 class Halfling : public Races {
 public:
-	
+
     enum halflingtype { NA, LIGHTFOOT, STOUT };
     halflingtype subr;
     virtual void setRaceDetails(Generic_Character_Class &v);
@@ -83,14 +83,14 @@ public:
 
 class Human : public Races {
 public:
-	
+
     virtual void setRaceDetails(Generic_Character_Class &v);
     virtual std::string getRaceString() const;
 };
 
 class Tiefling : public Races {
 public:
-	
+
     virtual void setRaceDetails(Generic_Character_Class &v);
     virtual std::string getRaceString() const;
 };
